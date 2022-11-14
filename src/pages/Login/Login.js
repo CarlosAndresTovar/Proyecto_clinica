@@ -5,10 +5,10 @@ import Logo from "./components/Logo/Logo";
 import Input_login from "./components/Input/Input";
 import {faLock, faUser} from '@fortawesome/free-solid-svg-icons';
 import Social from "./components/Social/Social";
-import facebook from "/home/carlos/Documents/clinicaimperial/src/images/facebook.svg"
-import twitter from "/home/carlos/Documents/clinicaimperial/src/images/twitter.svg"
-import linkedin from "/home/carlos/Documents/clinicaimperial/src/images/linkedin.svg"
-import gmail from "/home/carlos/Documents/clinicaimperial/src/images/Gmail.svg"
+import facebook from "../../images/facebook.svg"
+import twitter from "../../images/twitter.svg"
+import linkedin from "../../images/linkedin.svg"
+import gmail from "../../images/Gmail.svg"
 
 const Login = () => {
 
