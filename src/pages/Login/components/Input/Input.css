@@ -1,0 +1,19 @@
+.Input-login {
+    border: 0;
+    margin: 1vmin;
+    width: 35vmin;
+    height: 5vmin;
+    border-radius: 10px;
+    font-size: 2.5vmin;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding-left: 7.7vmin;
+  }
+
+  .section-user i {
+    color: #2c3c52;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 1.5vmin;
+    font-size: 3.5vmin;
+  }
