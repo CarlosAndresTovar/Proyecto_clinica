@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './Login.css'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Logo from "./components/Logo/Logo";
-import Input_login from "./components/Input/Input";
+import InputLogin from "./components/Input/Input";
 import {faLock, faUser} from '@fortawesome/free-solid-svg-icons';
 import Social from "./components/Social/Social";
 import facebook from "../../images/facebook.svg"
@@ -73,7 +72,7 @@ const Login = () => {
             { !local &&
                 <>
                     <form>
-                        <Input_login attribute={{
+                        <InputLogin attribute={{
                             id: 'user',
                             name:'user',
                             placeholder: 'Usuario',
@@ -81,7 +80,7 @@ const Login = () => {
                             icon: faUser,
                         }}
                         handleChange={handleChange}/>
-                        <Input_login attribute={{
+                        <InputLogin attribute={{
                             id: 'password',
                             name:'password',
                             placeholder: 'Contraseña',
@@ -95,7 +94,7 @@ const Login = () => {
                         <span>¿Olvidaste tu Contraseña?</span>
                     </div>
                     <div className="section-register">
-                        <a href="#">Registrarse</a>
+                        <span>Registrarse</span>
                     </div>
                 </>
             }

@@ -2,7 +2,7 @@ import React from "react";
 import './Input.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-const Input_login = ({attribute, handleChange}) => {
+const Inputlogin = ({attribute, handleChange}) => {
     return (
         <div className="section-user">
             <i><FontAwesomeIcon icon={attribute.icon} /></i>
@@ -17,4 +17,4 @@ const Input_login = ({attribute, handleChange}) => {
     )
 }
 
-export default Input_login;
+export default Inputlogin;
