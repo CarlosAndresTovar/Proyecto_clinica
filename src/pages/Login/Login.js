@@ -9,7 +9,7 @@ import twitter from "../../images/twitter.svg"
 import linkedin from "../../images/linkedin.svg"
 import gmail from "../../images/Gmail.svg"
 import Register from "../Register/Register";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Redirect } from 'react-router-dom';
 
 const Logincomponent = () => {
 
@@ -144,8 +144,9 @@ const Login = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route exact path="/home" element={<Logincomponent/>}/>
-                <Route exact path="/register" element={<Register/>}/>
+                <Route form="/" to="/home" />
+                <Route exact path="/home" element={<Logincomponent />} />
+                <Route exact path="/register" element={<Register />} />
             </Routes>
         </BrowserRouter>
     )
