@@ -8,12 +8,13 @@ import facebook from "../../images/facebook.svg"
 import twitter from "../../images/twitter.svg"
 import linkedin from "../../images/linkedin.svg"
 import gmail from "../../images/Gmail.svg"
+import Register from "../Register/Register";
 
-const Login = () => {
+const Logincomponent = () => {
 
     const userAdmin = {
-        adminUser: "imperial@gmail.com",
-        adminPassword: "admin123"
+        adminUser: "wilsoncalvoa",
+        adminPassword: "wilsoncalvoa"
     }
 
     const [ user, setUser ] = useState("");
@@ -64,67 +65,83 @@ const Login = () => {
         setLocal(false)
     }
 
+    var url = window.location.href
+
     return (
-        <div className="section-login">
-            { !local &&
-                <Logo />
-            }
-            { !local &&
-                <>
-                    <form>
-                        <InputLogin attribute={{
-                            id: 'user',
-                            name:'user',
-                            placeholder: 'Usuario',
-                            type: 'text',
-                            icon: faUser,
-                        }}
-                        handleChange={handleChange}/>
-                        <InputLogin attribute={{
-                            id: 'password',
-                            name:'password',
-                            placeholder: 'Contraseña',
-                            type: 'password',
-                            icon: faLock
-                        }}
-                        handleChange={handleChange}/>
-                    </form>
-                    <div className="section-recording">
-                        <input type="checkbox"></input>Recordarme
-                        <span>¿Olvidaste tu Contraseña?</span>
-                    </div>
-                    <div className="section-register">
-                        <span>Registrarse</span>
-                    </div>
-                </>
-            }
-            { !local &&
-                <button onClick={handleSubmit}>Login</button>
-            }
-            { !local &&
-                <div className="section-social">
-                    <Social attribute={{
-                        url: "https://es-la.facebook.com/",
-                        ruta: facebook
-                    }}/>
-                    <Social attribute={{
-                        url: "https://twitter.com/?lang=es",
-                        ruta: twitter
-                    }}/>
-                    <Social attribute={{
-                        url: "https://www.linkedin.com/",
-                        ruta: linkedin
-                    }}/>
-                    <Social attribute={{
-                        url: "https://www.google.com/intl/es-419/gmail/about/",
-                        ruta: gmail
-                    }}/>
+        <>
+            { !url.includes('register') &&
+                <div className="section-login">
+                    { !local &&
+                        <Logo />
+                    }
+                    { !local &&
+                        <>
+                            <form>
+                                <InputLogin attribute={{
+                                    id: 'user',
+                                    name:'user',
+                                    placeholder: 'Usuario',
+                                    type: 'text',
+                                    icon: faUser,
+                                }}
+                                handleChange={handleChange}/>
+                                <InputLogin attribute={{
+                                    id: 'password',
+                                    name:'password',
+                                    placeholder: 'Contraseña',
+                                    type: 'password',
+                                    icon: faLock
+                                }}
+                                handleChange={handleChange}/>
+                            </form>
+                            <div className="section-recording">
+                                <input type="checkbox"></input>Recordarme
+                                <span>¿Olvidaste tu Contraseña?</span>
+                            </div>
+                            <div className="section-register">
+                                <a href="/register">Registrarse</a>
+                            </div>
+                        </>
+                    }
+                    { !local &&
+                        <button onClick={handleSubmit}>Login</button>
+                    }
+                    { !local &&
+                        <div className="section-social">
+                            <Social attribute={{
+                                url: "https://es-la.facebook.com/",
+                                ruta: facebook
+                            }}/>
+                            <Social attribute={{
+                                url: "https://twitter.com/?lang=es",
+                                ruta: twitter
+                            }}/>
+                            <Social attribute={{
+                                url: "https://www.linkedin.com/",
+                                ruta: linkedin
+                            }}/>
+                            <Social attribute={{
+                                url: "https://www.google.com/intl/es-419/gmail/about/",
+                                ruta: gmail
+                            }}/>
+                        </div>
+                    }
+                    { local &&
+                        <button onClick={logoutSubmit}>Logout</button>
+                    }
                 </div>
             }
-            { local &&
-                <button onClick={logoutSubmit}>Logout</button>
+            { url.includes('register')  &&
+                <Register />
             }
-        </div>
+        </>
+    )
+}
+
+const Login = () => {
+
+    return (
+        <Logincomponent />
     )
 }
 
