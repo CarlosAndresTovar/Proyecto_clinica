@@ -1,0 +1,35 @@
+import React from "react";
+import Header from "../Register/Header";
+import MarcaAgua from "./MarcaAgua.svg"
+import './ResetPassword.css';
+import Inputregister from "../Register/Input";
+
+const Resetpassword = () => {
+    return (
+        <>
+            <Header />
+            <section className="marcaAgua">
+                <img src={MarcaAgua} alt="MarcaAgua"></img>
+            </section>
+            <section className="recoverPassword">
+                <h1>Recuperar la contraseña</h1>
+            </section>
+            <Inputregister attribute={{id: 'resetPassword',
+                                       name: 'resetPassword',
+                                       placeholder: 'Correo electronico',
+                                       type: 'text',
+                                       }}/>
+            <section className="textResetPassword">
+                <p>
+                    Al hacer clic en Continuar recibiras un link al correo registrado,
+                    para la recuperacion de la contraseña.
+                </p>
+            </section>
+            <div className="buttonContinue">
+                <button>Continuar</button>
+            </div>
+        </>
+    )
+}
+
+export default Resetpassword;

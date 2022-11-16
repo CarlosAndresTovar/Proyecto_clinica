@@ -10,6 +10,7 @@ import linkedin from "../../images/linkedin.svg"
 import gmail from "../../images/Gmail.svg"
 import Register from "../Register/Register";
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import Resetpassword from "../ResetPassword/ResetPassword";
 
 const Logincomponent = () => {
 
@@ -97,7 +98,7 @@ const Logincomponent = () => {
                             </form>
                             <div className="section-recording">
                                 <input type="checkbox"></input>Recordarme
-                                <span>¿Olvidaste tu Contraseña?</span>
+                                <a href="/resetpassword">¿Olvidaste tu Contraseña?</a>
                             </div>
                             <div className="section-register">
                                 <a href="/register">Registrarse</a>
@@ -147,6 +148,7 @@ const Login = () => {
                 <Route path="/" element={<Navigate replace to="/home" />} />
                 <Route path="/home" element={<Logincomponent />} />
                 <Route path="/register" element={<Register />} />
+                <Route path="/resetpassword" element={<Resetpassword />} />
             </Routes>
         </BrowserRouter>
     )

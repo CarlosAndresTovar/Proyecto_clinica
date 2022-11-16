@@ -1,22 +1,12 @@
 import React from "react";
 import './Register.css';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 import Inputregister from "./Input";
+import Header from "./Header"
 
 const Register = () => {
     return (
         <>
-            <header>
-                <div className="toBack">
-                    <div className="iconToBack">
-                        <a href="/"><FontAwesomeIcon icon={faArrowLeft} /></a>
-                    </div>
-                    <div className="titleToBack">
-                        <a href="/">Volver</a>
-                    </div>
-                </div>
-            </header>
+            <Header />
             <div className="inputDataRegister">
                 <h1>Registrarse</h1>
                 <form>

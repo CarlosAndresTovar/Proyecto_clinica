@@ -24,8 +24,9 @@
   height: 2.5vmin;
 }
 
-.section-recording span {
+.section-recording a {
   margin-left: 6vmin;
+  color: #000000;
 }
 
 .section-register {
@@ -38,7 +39,7 @@
 }
 
 .section-register a {
-  text-decoration: none;
+  color: #000000;
 }
 
 .section-login button {
