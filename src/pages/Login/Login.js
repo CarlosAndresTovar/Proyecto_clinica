@@ -143,8 +143,8 @@ const Login = () => {
 
     return (
         <BrowserRouter>
+            <Redirect form="/" to="/home" />
             <Routes>
-                <Route form="/" to="/home" />
                 <Route exact path="/home" element={<Logincomponent />} />
                 <Route exact path="/register" element={<Register />} />
             </Routes>
