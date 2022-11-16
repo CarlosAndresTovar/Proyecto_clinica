@@ -6,12 +6,12 @@ import RecoverDesktop from './pagesDesktop/Recover/Recover';
 function App() {
 
   const [matches, setMatches] = useState(
-    window.matchMedia("(min-width: 800px)").matches
+    window.matchMedia("(min-width: 1200px)").matches
   )
 
   useEffect(() => {
     window
-    .matchMedia("(min-width: 800px)")
+    .matchMedia("(min-width: 1200px)")
     .addEventListener('change', e => setMatches( e.matches ));
   }, []);
 

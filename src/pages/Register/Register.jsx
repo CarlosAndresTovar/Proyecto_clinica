@@ -69,6 +69,27 @@ const Register = () => {
                                                }}/>
                 </form>
             </div>
+            <section className="dataTreatment">
+                <div className="Authorization">
+                    <input type="checkbox"></input><span>Autolizo el</span> 
+                    <a href="/register">tratamiento de datos personales *</a>                            
+                </div>
+                <div className="toAccept">
+                    <input type="checkbox"></input><span>Aceptar los</span>
+                    <a href="/register">términos y condiciones *</a>                    
+                </div>
+            </section>
+            <section className="textTreatment">
+                <div className="sectionTreatment">
+                    <p>
+                        Al dar click en enviar, Aceptas que la Clinica Imperial almacene
+                        y procese la informacion personal suministrada arriba
+                    </p>
+                </div>
+            </section>
+            <div className="buttonAccept">
+                <button>Enviar</button>
+            </div>
         </>
     )
 }

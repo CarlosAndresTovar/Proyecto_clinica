@@ -8,7 +8,7 @@ const RecoverDesktop = () => {
             <header>
                 <nav className="barra">
                     <div className="logo-barra-superior">
-                        <img src="./Images/Logo_Principal.png" />
+                        <img src="./Images/Logo_Principal.png" alt="Logo"/>
                     </div>       
                 </nav>
             </header>
