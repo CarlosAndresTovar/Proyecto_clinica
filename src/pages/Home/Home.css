@@ -17,9 +17,12 @@
 }
 
 .sectionHome {
+    background-image: url('/src/pages/Home/inyeccion.svg');
     width: 80vmin;
     height: 105vmin;
     margin-top: 10vmin;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .sectionHome img {
