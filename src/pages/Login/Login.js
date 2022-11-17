@@ -11,6 +11,7 @@ import gmail from "../../images/Gmail.svg"
 import Register from "../Register/Register";
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Resetpassword from "../ResetPassword/ResetPassword";
+import Mainhome from "../Home/Home";
 
 const Logincomponent = () => {
 
@@ -60,18 +61,16 @@ const Logincomponent = () => {
         }
     };
 
-    const logoutSubmit = () => {
+    /*const logoutSubmit = () => {
         setUser(false)
         setPassword(false)
         localStorage.clear()
         setLocal(false)
-    }
-
-    var url = window.location.href
+    }*/
 
     return (
         <>
-            { !url.includes('register') &&
+            { !local &&
                 <div className="section-login">
                     { !local &&
                         <Logo />
@@ -128,13 +127,12 @@ const Logincomponent = () => {
                             }}/>
                         </div>
                     }
-                    { local &&
-                        <button onClick={logoutSubmit}>Logout</button>
-                    }
                 </div>
             }
-            { url.includes('register')  &&
-                <Register />
+            { local &&
+                <>
+                    <Mainhome />
+                </>
             }
         </>
     )
