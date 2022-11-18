@@ -17,8 +17,7 @@ function App() {
 
   return (
     <div className="App-login">
-      {!matches && <Login />}
-      {matches && <RecoverDesktop />}
+      <Login />
     </div>
   );
 }
