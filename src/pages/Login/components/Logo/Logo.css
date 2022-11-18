@@ -1,14 +1,16 @@
-.App-logo {
+@media only screen and (max-width: 1200px) {
+  .App-logo {
     margin-top: 2em;
     height: 30vmin;
     pointer-events: none;
   }
+}
 
-  @media only screen and (min-width: 768px) {
+/*  @media only screen and (min-width: 768px) {*/
     /* For desktop: */
-    .App-logo{
+/*    .App-logo{
       border-right: 1px solid black;
       margin-top: 0px;
       padding: 50px;
     }
-  }
+  }*/

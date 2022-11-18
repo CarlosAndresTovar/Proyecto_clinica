@@ -1,8 +1,10 @@
-input {
-    width: 50vmin;
-    height: 6vmin;
-    border-radius: 7px;
-    border: none;
-    padding-left: 3vmin;
-    font-size: 2.5vmin;
+@media only screen and (max-width: 1200px) {
+    input {
+        width: 50vmin;
+        height: 6vmin;
+        border-radius: 7px;
+        border: none;
+        padding-left: 3vmin;
+        font-size: 2.5vmin;
+    }
 }
