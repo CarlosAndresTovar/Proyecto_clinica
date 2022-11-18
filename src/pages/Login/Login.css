@@ -59,3 +59,114 @@
   justify-content: center;
   margin-top: 6vmin;
 }
+
+.section-footer{
+  display: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .section-login-desk{
+    display: flex;
+  }
+
+  .section-login {
+    width: 115vmin;
+    padding-bottom: 10vmin;
+    padding-top: 3vmin;
+    background-size: 53vmin;
+  }
+
+  .section-boxform-desk{
+    width: 400%;
+    display: flex;
+    align-items: center;
+  }
+  .section-form-desk{
+    width: 45vmin;
+    margin: 0 auto;
+  }
+  
+
+.section-recording {
+  width: 45.5vmin;
+  display: flex;
+  margin-left: 0vmin;
+  align-items: center;
+}
+
+.section-recording input{
+  width: 2.5vmin;
+  height: 2.5vmin;
+}
+
+.section-recording a {
+  margin-left: 7.8vmin;
+}
+
+.section-register {
+  width: 100%;
+  display: flex;
+  margin-left: 0vmin;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  justify-content: flex-end;
+}
+
+.section-register a {
+  font-weight: 900;
+}
+
+.section-login button {
+  border-radius: 1vmin;
+}
+
+.section-social {
+  display: none;
+}
+
+.section-footer{
+  display: flex;
+  width: 100vw;
+  padding-top: 4vmin;
+  padding-bottom: 4vmin;
+  background-color: #FFFFFF;
+  color:#000000;
+  font-size: 2vmin;
+}
+.section-footer h5{
+  margin-top: 0px;
+  text-align: left;
+}
+.section-footer p{
+  text-align: left;
+}
+.section-footer-social{
+  width: 25%;
+  padding-inline: 3vmin;
+}
+.section-footer-icons{
+  display: flex;
+
+}
+.section-footer-service{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 3vmin;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+.section-footer-about{
+  width: 25%;
+  padding-inline: 3vmin;
+}
+.section-footer-about ul{
+  padding-left: 2.5vmin;
+}
+.section-footer-about li{
+  text-align: left;
+}
+  
+}

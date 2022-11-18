@@ -3,3 +3,12 @@
     height: 30vmin;
     pointer-events: none;
   }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .App-logo{
+      border-right: 1px solid black;
+      margin-top: 0px;
+      padding: 50px;
+    }
+  }

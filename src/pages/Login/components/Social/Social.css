@@ -2,3 +2,10 @@
     width: 8.3vmin;
     margin: 1.5vmin;
   }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .items-social{
+      margin: 1vmin;
+    }
+  }
