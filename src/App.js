@@ -1,7 +1,7 @@
 import './App.css';
 import Login from './pages/Login/Login';
 import React, {useState, useEffect} from 'react';
-import RecoverDesktop from './pagesDesktop/Recover/Recover';
+import RegisterDesktop from './pagesDesktop/Register/Register';
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App-login">
       {!matches && <Login />}
-      {matches && <RecoverDesktop />}
+      {matches && <RegisterDesktop />}
     </div>
   );
 }

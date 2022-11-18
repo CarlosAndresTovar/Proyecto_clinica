@@ -27,17 +27,7 @@ const RegisterDesktop = () => {
             </header>
 
             <body>
-                <div className="container-registro">
-                    <span className="registro">Registrarse</span>
-                </div>
-                <form className="Contendor-cajas-dialogo">
-                    <input type="text" name="usuario" value="" /><br></br>
-                    <input type="text" name="usuario" value="" /><br></br>
-                    <input type="text" name="usuario" value="" /><br></br>
-                    <input type="text" name="usuario" value="" /><br></br>
-                    <input type="text" name="usuario" value="" /><br></br>
-
-                </form>
+                
                 
             </body>
             <footer>
@@ -93,10 +83,7 @@ const RegisterDesktop = () => {
                             </div>
                             <hr className="vertical-line" />
 
-                    </div>
-                  
-
-                        
+                    </div>                         
             </footer>
        </html>
 

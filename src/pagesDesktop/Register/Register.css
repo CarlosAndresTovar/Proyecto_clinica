@@ -13,27 +13,18 @@ header{
 }
 
 #logobarra{
-
+    display: flex;
+    position: relative;
     height: 13vmin;
     width: 13vmin;
     padding: 5px 5px;
-    
+        
 }
 
 .container-logo{
     align-items: left;
     width: 15vmin;
 
-}
-
-.container-registro{
-    padding-left: 15.5vw; 
-    padding-top: 5vh; 
-    text-align: left;
-    height: 13vh;
-    width: 50vw
-
-    
 }
 
 footer{
@@ -47,21 +38,6 @@ body{
     align-items: left;
     height: 65vh;
     width: 100vw;
-}
-
-.registro {
-  
-    align-items: center;
-    color: #000;
-    height: 15vmin;
-    width: 15vmin;
-
-}
-
-.Contendor-cajas-dialogo{
-
-    height: 10vh;
-    width: 50vw
 }
 
 input{
