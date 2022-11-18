@@ -1,0 +1,193 @@
+
+*{
+  margin: 0;  
+  padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    height: 13vh;
+    width: 100vw;
+    background: rgba(44, 60, 82, 0.8);
+    
+}
+
+#logobarra{
+
+    height: 13vmin;
+    width: 13vmin;
+    padding: 5px 5px;
+    
+}
+
+.container-logo{
+    align-items: left;
+    width: 15vmin;
+
+}
+
+.container-registro{
+    padding-left: 15.5vw; 
+    padding-top: 5vh; 
+    text-align: left;
+    height: 13vh;
+    width: 50vw
+
+    
+}
+
+footer{
+     
+    background-color: #fff;
+    height: 22vh;
+    width: 100vw;
+}
+
+body{
+    align-items: left;
+    height: 65vh;
+    width: 100vw;
+}
+
+.registro {
+  
+    align-items: center;
+    color: #000;
+    height: 15vmin;
+    width: 15vmin;
+
+}
+
+.Contendor-cajas-dialogo{
+
+    height: 10vh;
+    width: 50vw
+}
+
+input{
+
+    width: 30vmin;
+    height: 5vmin;
+    border-radius: 1vmin;
+    padding: 2vmin;
+}
+
+h6{
+
+    color: #000;
+    text-align: left;
+    padding: 1vw;
+    font-style: normal;
+    font-size: 1.85vmin;
+}
+
+.caja-padre-footer-seccion-1{
+
+    
+    height: 22vh;
+    width: 25vw;
+    left: 0vw;
+    
+
+}
+
+.caja-padre-footer-seccion-2{
+    position: absolute;
+    
+    height: 22vh;
+    width: 25vw;
+    left: 25vw;
+    top:78vh;
+}
+
+.caja-padre-footer-seccion-3{
+    position: absolute;
+    
+    height: 22vh;
+    width: 25vw;
+    left: 50vw;
+    top:78vh;
+}
+
+.caja-padre-footer-seccion-4{
+    position: absolute;
+    height: 22vh;
+    width: 25vw;
+    left: 75vw;
+    top:78vh;
+}
+li{
+
+    color: black;
+    text-align: left;
+    font-size: 1.2vw;
+    padding: 0vw;
+ 
+
+
+}
+
+.acerca-de{
+    position: absolute;
+    height: 0vh;
+    width: 20vw;
+    left: 2.5vw;
+    top:7vh;
+    text-align: right;
+    
+}
+
+.vertical-line{
+
+    height:11vh;
+    width:.2vw;
+    border-width:0vw;  
+    background-color: darkgrey;
+    
+}
+
+#icons{
+
+    height:7vmin;
+    width:7vmin;
+    
+}
+
+.iconos-redes-sociales-1{
+    position: absolute;
+    height: 11vh;
+    width: 5.5vw;
+    left: 0vw;
+    top:87vh;
+  
+}
+
+.iconos-redes-sociales-2{
+
+    position: absolute;
+    height:11vh;
+    width:5.5vw;
+    left: 5vw;
+    top:87vh;
+
+}
+
+.iconos-redes-sociales-3{
+
+    position: absolute;
+    height:11vh;
+    width:5.5vw;
+    left: 10vw;
+    top:87vh;
+
+}
+
+.iconos-redes-sociales-4{
+
+    position: absolute;
+    height:11vh;
+    width:5.5vw;
+    left: 15vw;
+    top:87vh;
+
+}
