@@ -27,9 +27,28 @@ const RecoverDesktop = () => {
             </header>
 
             <body>
-                
-                
+                <div className="container-alignment">
+                    <span id="a">Recuperar la contraseña</span> 
+                </div>
+                <div className="container-alignment">
+                    <h5 id="b">Al hacer clic en Continuar recibiras un link al correo registrado, para la recuperación de la contraseña.</h5>
+                </div>
+                <div className="container-alignment">
+                    <hr id="c"/>
+                </div>
+                <div className="container-alignment">
+                    <input id="d" type="text" placeholder="Ingresa el correo electronico registrado" />
+                </div>
+                <div>
+                    <div>
+                        <button id="boton-cancelar" type="imput">Cancelar</button>
+                    </div>
+                    <div>
+                        <button id="boton-continuar" type="imput">Continuar</button>
+                    </div>                    
+                </div>                
             </body>
+
             <footer>
                     <div className="caja-padre-footer-seccion-1">
                         <h6>VISITANOS EN NUESTRAS REDES SOCIALES: </h6>
