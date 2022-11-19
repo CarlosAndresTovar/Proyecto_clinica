@@ -1,0 +1,107 @@
+@media only screen and (min-width: 1200px) {
+    footer {
+        bottom: 0px;
+        left: 0px;
+        position: fixed;
+        width: 100%;
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section-Social {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .section-Social span {
+        color: #000;
+        font-size: 2.3vh;
+        text-align: center;
+    }
+
+    .logo-social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .logo-social a {
+        margin: 0.7vh;
+    }
+
+    .line-vertical {
+        width: 2%;
+        height: 100%;
+    }
+
+    .section-sedes {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        color: #000;
+        font-size: 2vh;
+        margin: auto;
+    }
+
+    .section-about {
+        width: 18%;
+        height: 100%;
+    }
+
+    .logo-social {
+        margin: 2vh;
+    }
+
+    .lineaVerticalFooter {
+        height:10vw;
+        width:0.2vh;
+        border-width:0vw;  
+        background-color: #000;
+    }
+
+    .section-sedes h3 {
+        float: left;
+    }
+
+    .section-sedes span {
+        float: left;
+    }
+
+    .Sedes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Sedes div {
+        margin: 0.4vh;
+    }
+
+    .LineasAtencion {
+        margin-left: 3vh;
+    }
+
+    .section-about {
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .section-about h4 {
+        font-size: 2.3vh;
+    }
+
+    .section-about li {
+        font-size: 2.1vh;
+        float: left;
+        margin: 0.4vh;
+    }
+
+}
+
+
