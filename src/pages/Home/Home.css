@@ -21,7 +21,8 @@
         background-image: url('/src/pages/Home/inyeccion.svg');
         width: 80vmin;
         height: 105vmin;
-        margin-top: 10vmin;
+        margin-top: 12vh;
+        background-size: 40vh;
         background-repeat: no-repeat;
         background-position: center;
     }
