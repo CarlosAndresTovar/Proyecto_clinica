@@ -1,7 +1,5 @@
 import React from "react";
-import {FaEquals} from "react-icons/fa";
 import './Home.css';
-import Notifications from "./Notifications.svg";
 import Certifications from "./Certifications.svg";
 import medicalAppointments from "./medicalAppointments.svg";
 import autorizationsMipres from "./autorizationsMipres.svg";
@@ -9,11 +7,12 @@ import xRays from "./xRays.svg";
 import Sincronizations from "./Sincronizations.svg";
 import checkBilling from "./checkBilling.svg";
 import Whatsapp from "./Whatsapp.svg";
+import Header from "./Header";
 
 const Mainhome = () => {
     return (
         <>
-            <header>
+            {/*<header>
                 <div className="deployHome">
                     <div className="iconHome">
                         <FaEquals size="5vmin" />
@@ -22,7 +21,8 @@ const Mainhome = () => {
                 <div className="notificationsHome">
                     <img id="Notifications" src={Notifications} alt="Notifications"></img>
                 </div>
-            </header>
+            </header>*/}
+            <Header />
             <div className="sectionHome">
                 <div className="firstSection">
                     <div className="Items">
