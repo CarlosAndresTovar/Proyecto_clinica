@@ -12,6 +12,7 @@ import Ayuda from "./ayuda.svg";
 import Salir from "./salir.svg";
 import { useState } from "react";
 import ToggleSwitch from "./Toogle";
+import Notifications from "./Notifications.svg";
 
 const Header = () => {
 
@@ -25,6 +26,10 @@ const Header = () => {
     
     const [menu, setMenu] = useState(false)
 
+    const clearLocalStorage = () => {
+        localStorage.clear()
+    }
+
     return (
         <>
             <header>
@@ -32,6 +37,9 @@ const Header = () => {
                 {!menu &&
                     <i onClick={updateMenu}><FaEquals size="5vmin" /></i>
                 }
+                </div>
+                <div className="notificationsHome">
+                    <img src={Notifications} alt="Notifications"></img>
                 </div>
             </header>
             {menu &&
@@ -78,8 +86,8 @@ const Header = () => {
                             <a href="/#" className="ayuda">Ayuda</a>
                         </div>
                         <div className="menu salir">
-                            <img src={Salir} alt="Ayuda" />
-                            <a href="/#" className="salir">Salir</a>
+                            <a onClick={clearLocalStorage} href="/home"><img src={Salir} alt="Ayuda" /></a>
+                            <a onClick={clearLocalStorage} href="/home" className="salir">Salir</a>
                         </div>
                     </div>
                 </div>

@@ -10,18 +10,9 @@ import Whatsapp from "./Whatsapp.svg";
 import Header from "./Header";
 
 const Mainhome = () => {
+
     return (
         <>
-            {/*<header>
-                <div className="deployHome">
-                    <div className="iconHome">
-                        <FaEquals size="5vmin" />
-                    </div>
-                </div>
-                <div className="notificationsHome">
-                    <img id="Notifications" src={Notifications} alt="Notifications"></img>
-                </div>
-            </header>*/}
             <Header />
             <div className="sectionHome">
                 <div className="firstSection">
@@ -42,7 +33,7 @@ const Mainhome = () => {
                 </div>
                 <div className="thirdSection">
                     <div className="Items">
-                        <img id="Sincronizations" src={Sincronizations} alt="Sincronizations"></img>
+                        <a href="/sincronization"><img id="Sincronizations" src={Sincronizations} alt="Sincronizations"></img></a>
                     </div>
                     <div className="Items">
                         <img id="checkBilling" src={checkBilling} alt="checkBilling"></img>
@@ -50,7 +41,7 @@ const Mainhome = () => {
                 </div>
             </div>
             <section className="Whatsapp">
-                <img id="Whatsapp" src={Whatsapp} alt="Whatsapp"></img>
+                <a href="https://web.whatsapp.com/"><img id="Whatsapp" src={Whatsapp} alt="Whatsapp"></img></a>
             </section>
         </>
     )
