@@ -27,6 +27,119 @@
         
       }
 
+      .container-registro{
+        
+        display: flex;
+        position: relative;
+        height: 66vh;
+        width: 70vw;
+        padding: 5px 5px;
+        /*background-color: blueviolet;*/
 
+      }
+      .container-formulario-1{
+
+        display: flex;
+        position: relative;
+        height: 64vh;
+        width: 32vw;
+        padding: 5px 5px;
+    /*    background-color: aqua;*/
+        text-align: center;
+        
+
+      }
+      .container-formulario-2{
+        display: flex;
+        position: relative;
+        height: 64vh;
+        width: 32vw;
+        padding: 5px 5px;
+        /*background-color:brown;*/
+                
+      }
+
+      div .linea{
+        display: flex;
+        position: relative;
+        height: 55vh;
+        width: 6vw;
+        /*background-color: azure;*/
+        align-self: center;
+        align-items: center;
+        align-content: center;
+
+      }
+
+      .ln{
+        
+        display: flex;
+        position: relative;
+        height: 55vh;      
+        align-self: center;        
+        background-color: black; 
+        margin: 2vw;
+
+      }
+
+      input {
+        position: relative;
+        display: flex;
+        width: 20vw;
+        height: 5vh ;
+        border-radius: 1vmin;
+        border: 0vmin;
+        margin-top: 3vmin;
+        margin-left: 9.5vmin;
+        
+      }
+            
+      .registrarse{
+        display: flex;
+        position: relative;
+        height: 5vh;
+        width: 10vw;
+        margin-left: 9.5vmin;
+
+      }
+      br{
+        height: 1vh;
+      }
+      .condiciones{
+        font-size: small;
+        color: #000;
+        text-align: left;
+        margin-left: 9.5vmin;
+      }
+      .checkbox{
+        display: flex;
+        position: relative;
+        height: 3vh;
+        width: 3vw;
+        margin-left: 8vmin;
+        border-radius: 1vmin;
+
+      }
+
+      button{
+        background-color: #2C3C52;
+        border-radius: 8px;
+        border-style: none;
+        color: #fff;
+        width: 14vw;
+        height: 7vh;
+        margin-left: 14vmin;
+        margin-top: 3vmin;
+    
+    }
+
+    .texto-aceptar{
+        position: relative;
+        margin:0%;
+        font-size: small;
+        color: #000;
+
+
+    }
 
 }
