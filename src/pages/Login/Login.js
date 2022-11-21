@@ -196,6 +196,24 @@ const Logincomponent = () => {
     )
 }
 
+const ValidateLogin = () => {
+    
+    const items = JSON.parse(localStorage.getItem('account'));
+    
+    return (
+        <>
+            {items &&
+                <Sincronization />
+            }
+            {!items &&
+                <Routes>
+                    <Route path="/" element={<Navigate replace to="/home" />} />
+                </Routes>
+            }
+        </>
+    )
+}
+
 const Login = () => {
 
     return (
@@ -205,7 +223,7 @@ const Login = () => {
                 <Route path="/home" element={<Logincomponent />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/resetpassword" element={<Resetpassword />} />
-                <Route path="/sincronization" element={<Sincronization />} />
+                <Route path="/sincronization/*" element={<ValidateLogin />} />
             </Routes>
         </BrowserRouter>
     )
