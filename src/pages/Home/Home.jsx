@@ -33,7 +33,7 @@ const Mainhome = () => {
                 </div>
                 <div className="thirdSection">
                     <div className="Items">
-                        <img id="Sincronizations" src={Sincronizations} alt="Sincronizations"></img>
+                        <a href="/sincronization"><img id="Sincronizations" src={Sincronizations} alt="Sincronizations"></img></a>
                     </div>
                     <div className="Items">
                         <img id="checkBilling" src={checkBilling} alt="checkBilling"></img>

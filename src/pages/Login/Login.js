@@ -12,6 +12,7 @@ import Register from "../Register/Register";
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Resetpassword from "../ResetPassword/ResetPassword";
 import Mainhome from "../Home/Home";
+import Sincronization from "../Sincronization/Sincronization";
 
 const Logincomponent = () => {
 
@@ -204,6 +205,7 @@ const Login = () => {
                 <Route path="/home" element={<Logincomponent />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/resetpassword" element={<Resetpassword />} />
+                <Route path="/sincronization" element={<Sincronization />} />
             </Routes>
         </BrowserRouter>
     )
