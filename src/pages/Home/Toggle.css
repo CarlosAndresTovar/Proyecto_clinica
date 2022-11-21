@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1200px) {
+    .container {
+        text-align: center;
+        font-size: 2vh;
+        }
+    .toggle-switch {
+        position: relative;
+        width: 70%;
+        display: inline-block;
+        text-align: left;
+    }
+    .checkbox {
+        display: none;
+    }
+    .label {
+        display: block;
+        overflow: hidden;
+        cursor: pointer;
+        border: 0 solid #bbb;
+        border-radius: 20px;
+    }
+    .inner {
+        display: block;
+        width: 200%;
+        margin-left: -100%;
+        transition: margin 0.3s ease-in 0s;
+    }
+    .inner:before,
+    .inner:after {
+        float: left;
+        width: 50%;
+        height: 3vh;
+        padding: 0;
+        line-height: 3vh;
+        color: #fff;
+        font-weight: bold;
+        box-sizing: border-box;
+        }
+    .inner:before {
+        content: "Paciente";
+        padding-left: 1vh;
+        background-color: #fff;
+        color: #2c3c52;
+        }
+    .inner:after {
+        content: "Familiar";
+        padding-right: 2vh;
+        background-color: rgb(87,176,163);
+        color: #fff;
+        text-align: right;
+        }
+    .switch {
+        display: block;
+        width: 6vh;
+        margin: 0.2vh;
+        background: #2c3c52;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 10vh;
+        border: 0 solid #bbb;
+        border-radius: 20px;
+        transition: all 0.3s ease-in 0s;
+        }
+    .checkbox:checked + .label .inner {
+        margin-left: 0;
+        }
+    .checkbox:checked + .label .switch {
+        right: 0px;
+        }    
+}
