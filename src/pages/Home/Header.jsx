@@ -12,6 +12,7 @@ import Ayuda from "./ayuda.svg";
 import Salir from "./salir.svg";
 import { useState } from "react";
 import ToggleSwitch from "./Toogle";
+import Notifications from "./Notifications.svg";
 
 const Header = () => {
 
@@ -36,6 +37,9 @@ const Header = () => {
                 {!menu &&
                     <i onClick={updateMenu}><FaEquals size="5vmin" /></i>
                 }
+                </div>
+                <div className="notificationsHome">
+                    <img src={Notifications} alt="Notifications"></img>
                 </div>
             </header>
             {menu &&

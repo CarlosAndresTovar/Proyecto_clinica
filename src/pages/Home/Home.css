@@ -6,17 +6,6 @@
         align-items: center;
     }
     
-    .notificationsHome {
-        margin-left: auto;
-        margin-right: 2vmin;
-        font-size: 3vmin;
-    }
-    
-    .notificationsHome img {
-        width: 5vmin;
-        height: 5vmin;
-    }
-    
     .sectionHome {
         background-image: url('/src/pages/Home/inyeccion.svg');
         width: 80vmin;

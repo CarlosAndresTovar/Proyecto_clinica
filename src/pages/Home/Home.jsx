@@ -41,7 +41,7 @@ const Mainhome = () => {
                 </div>
             </div>
             <section className="Whatsapp">
-                <img id="Whatsapp" src={Whatsapp} alt="Whatsapp"></img>
+                <a href="https://web.whatsapp.com/"><img id="Whatsapp" src={Whatsapp} alt="Whatsapp"></img></a>
             </section>
         </>
     )
