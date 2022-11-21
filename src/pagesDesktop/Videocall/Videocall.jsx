@@ -14,8 +14,21 @@ const VideoCall = () => {
                     </div>   
                 </nav>
             </header>
-            <div>
-                <span>Pagina de Video Llamada</span>
+            <div className="container-body">
+                <div className="container-form">
+                    <p>parrafo de pruebas</p>
+                    
+                </div>
+                <div className="linea-intermedia">
+                    <hr />
+                </div>
+
+                <div className="container-video">
+                    
+                </div>
+
+
+                
             </div>
             <FooterDesktop />
         

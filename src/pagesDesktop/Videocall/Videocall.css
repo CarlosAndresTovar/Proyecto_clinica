@@ -27,6 +27,61 @@
       
       }
 
+      .container-body{
 
+        display: flex;
+        position: relative;
+        margin-left: 0vw;
+        height: 68vh;
+        width: 100vw;
+        background-color: blanchedalmond;
+        align-items: center;    
+
+      }
+
+      .container-form{
+        background-color: blue;
+        display: flex;
+        position: relative;
+        margin-left: 0vw;
+        height: 67vh;
+        width: 35vw;
+        align-content: center;
+        align-self: center;
+
+
+      }
+
+      .container-video{
+        background-color: aqua;
+        display: flex;
+        position: relative;
+        margin-left: 0vw;
+        height: 67vh;
+        width: 60vw;
+
+      }
+
+      .linea-intermedia{
+        background-color:aliceblue;
+        display: flex;
+        position: relative;
+        height: 67vh;
+        width: 5vw;
+
+      }
+
+      p {
+        align-self: center;
+        align-content: center;
+        margin-right: 2vh;
+        margin:20vmin;
+        text-align: center;
+      }
+
+      .titulo{
+
+        color: #000;
+      }
 
 }
