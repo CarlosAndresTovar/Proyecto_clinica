@@ -83,8 +83,21 @@
     }
 
     .salir {
-        margin-top: 5vh;
-        margin-left: 5vh;
+        margin-top: 4vh;
+        margin-left: 2vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .salir a {
+        margin: 0;
+    }
+
+    .salir img {
+        margin-left: auto;
+        margin-right: 2vh;
     }
 
     .sidebar .menu:hover {

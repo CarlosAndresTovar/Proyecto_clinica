@@ -25,6 +25,10 @@ const Header = () => {
     
     const [menu, setMenu] = useState(false)
 
+    const clearLocalStorage = () => {
+        localStorage.clear()
+    }
+
     return (
         <>
             <header>
@@ -78,8 +82,8 @@ const Header = () => {
                             <a href="/#" className="ayuda">Ayuda</a>
                         </div>
                         <div className="menu salir">
-                            <img src={Salir} alt="Ayuda" />
-                            <a href="/#" className="salir">Salir</a>
+                            <a onClick={clearLocalStorage} href="/home"><img src={Salir} alt="Ayuda" /></a>
+                            <a onClick={clearLocalStorage} href="/home" className="salir">Salir</a>
                         </div>
                     </div>
                 </div>
