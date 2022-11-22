@@ -1,0 +1,167 @@
+@media only screen and (max-width: 1200px) {
+    .Clinicalstatus {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6vh;
+        width: 45vh;
+        background-image: url("/src/pages/Clinicalstatus/fondoclinicastatus.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+    }
+    .sectionstatus {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .sectionstatus h1 {
+        font-size: 3vh;
+        color: #000;
+        font-weight: 400;
+    }
+    .statuspatien {
+        background-color: #fff;
+        color: #000;
+        width: 100%;
+        font-size: 1.5vh;
+        border-radius: 15px;
+    }
+    .sectionfirst {
+        display: flex;
+        flex-direction: row;
+    }
+    .sectionfirst span {
+        margin: 1vh 0;
+    }
+    .heartrate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 33%;
+        border-right: solid #000 0.1vh;
+        border-bottom: solid #000 0.1vh;
+    }
+    .temperature {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 33%;
+        border-right: solid #000 0.1vh;
+        border-bottom: solid #000 0.1vh;
+    }
+    .bloodpressure {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 34%;
+        border-bottom: solid #000 0.1vh;
+    }
+    .sectionsecond {
+        display: flex;
+        flex-direction: row;
+    }
+    .sectionsecond span {
+        margin: 1vh 0;
+    }
+    .strain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 33%;
+        border-right: solid #000 0.1vh;
+    }
+    .breathing {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 33%;
+        border-right: solid #000 0.1vh;
+    }
+    .glucose {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 34%;
+    }
+    .sectionmedicines {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vh;
+    }
+    .sectionmedicines h1 {
+        font-size: 2vh;
+        color: #000;
+        font-weight: 400;
+    }
+    .medicines {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        color: #000;
+        border-radius: 15px;
+        width: 100%;
+    }
+    .medicineone {
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 0.1vh;
+    }
+    .medicine {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 30%;
+        margin: 1vh;
+    }
+    .medicine h3 {
+        font-size: 1.7vh;
+    }
+    .medicine span {
+        font-size: 1.5vh;
+    }
+    .indications {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+    }
+    .indications h3 {
+        font-size: 1.7vh;
+    }
+    .indications span {
+        font-size: 1.5vh;
+    }
+    .medicinetwo {
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 0.1vh;
+    }
+    .medicinethree {
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 0.1vh;
+    }
+    .medicinefour {
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 0.1vh;
+    }
+    .medicinefive {
+        display: flex;
+        flex-direction: row;
+    }
+}

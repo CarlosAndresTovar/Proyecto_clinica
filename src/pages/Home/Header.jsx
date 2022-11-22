@@ -59,7 +59,7 @@ const Header = () => {
                         <ToggleSwitch label="N"/>
                         <div className="menu">
                             <img src={Pacientes} alt="Pacientes" />
-                            <a href="/#" className="paciente">Pacientes</a>
+                            <a href="/clinicalstatus" className="paciente">Pacientes</a>
                         </div>
                         <div className="menu">
                             <img src={Llamadas} alt="Llamadas" />
