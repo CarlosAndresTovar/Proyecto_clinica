@@ -59,11 +59,11 @@ const Header = () => {
                         <ToggleSwitch label="N"/>
                         <div className="menu">
                             <img src={Pacientes} alt="Pacientes" />
-                            <a href="/calls" className="paciente">Pacientes</a>
+                            <a href="/medicalhistory" className="paciente">Pacientes</a>
                         </div>
                         <div className="menu">
                             <img src={Llamadas} alt="Llamadas" />
-                            <a href="/#" className="llamadas">Llamadas</a>
+                            <a href="/calls" className="llamadas">Llamadas</a>
                         </div>
                         <div className="menu">
                             <img src={Calendario} alt="Calendario" />

@@ -14,6 +14,7 @@ import Resetpassword from "../ResetPassword/ResetPassword";
 import Mainhome from "../Home/Home";
 import Sincronization from "../Sincronization/Sincronization";
 import Calls from "../Calls/Calls";
+import Medicalhistory from "../Medicalhistory/Medicalhistory";
 
 const Logincomponent = () => {
 
@@ -62,13 +63,6 @@ const Logincomponent = () => {
             setLocal(false);
         }
     };
-
-    /*const logoutSubmit = () => {
-        setUser(false)
-        setPassword(false)
-        localStorage.clear()
-        setLocal(false)
-    }*/
 
     return (
         <>
@@ -232,6 +226,23 @@ const Validatecalls = () => {
     )
 }
 
+const Validatemedicalhistory = () => {
+    const items = JSON.parse(localStorage.getItem('account'));
+    
+    return (
+        <>
+            {items &&
+                <Medicalhistory />
+            }
+            {!items &&
+                <Routes>
+                    <Route path="/" element={<Navigate replace to="/home" />} />
+                </Routes>
+            }
+        </>
+    )
+}
+
 const Login = () => {
 
     return (
@@ -243,6 +254,7 @@ const Login = () => {
                 <Route path="/resetpassword" element={<Resetpassword />} />
                 <Route path="/sincronization/*" element={<ValidateLogin />} />
                 <Route path="/calls/*" element={<Validatecalls />} />
+                <Route path="/medicalhistory/*" element={<Validatemedicalhistory />} />
             </Routes>
         </BrowserRouter>
     )
