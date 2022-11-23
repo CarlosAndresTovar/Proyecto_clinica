@@ -16,6 +16,7 @@ import Sincronization from "../Sincronization/Sincronization";
 import Calls from "../Calls/Calls";
 import Medicalhistory from "../Medicalhistory/Medicalhistory";
 import Clinicalstatus from "../Clinicalstatus/Clinicalstatus";
+import Facturaxion from "../Facturaxión/Facturaxion";
 
 const Logincomponent = () => {
 
@@ -261,6 +262,23 @@ const Validateclinicalstatus = () => {
     )
 }
 
+const Validatefacturaxion = () => {
+    const items = JSON.parse(localStorage.getItem('account'));
+    
+    return (
+        <>
+            {items &&
+                <Facturaxion />
+            }
+            {!items &&
+                <Routes>
+                    <Route path="/" element={<Navigate replace to="/home" />} />
+                </Routes>
+            }
+        </>
+    )
+}
+
 const Login = () => {
 
     return (
@@ -273,7 +291,8 @@ const Login = () => {
                 <Route path="/sincronization/*" element={<ValidateLogin />} />
                 <Route path="/calls/*" element={<Validatecalls />} />
                 <Route path="/medicalhistory/*" element={<Validatemedicalhistory />} />
-                <Route path="clinicalstatus/*" element={<Validateclinicalstatus />}/>
+                <Route path="/clinicalstatus/*" element={<Validateclinicalstatus />}/>
+                <Route path="/facturaxion/*" element={<Validatefacturaxion />}/>
             </Routes>
         </BrowserRouter>
     )

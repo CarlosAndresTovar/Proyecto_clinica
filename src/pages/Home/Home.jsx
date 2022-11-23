@@ -52,7 +52,7 @@ const Mainhome = () => {
                     </div>
                     <div className="checkbilling">
                         <div className="Items-checkbilling">
-                            <img id="checkBilling" src={checkBilling} alt="checkBilling"></img>
+                            <a href="/facturaxion"><img id="checkBilling" src={checkBilling} alt="checkBilling"></img></a>
                         </div>
                         <span>Consultar facturación</span>
                     </div>
