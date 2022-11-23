@@ -53,12 +53,12 @@
       }
 
       .container-video{
-        background-color: aqua;
         display: flex;
         position: relative;
         margin-left: 0vw;
         height: 67vh;
         width: 60vw;
+        background-color: aqua;
 
       }
 
@@ -82,6 +82,35 @@
       .titulo{
 
         color: #000;
+      }
+
+      .caja-video{
+        display: flex;
+        margin:auto;
+        height: 58vh;
+        width: 52vw;
+        background-color: #000;
+        border-radius: 2vmin
+         
+
+      }
+      .container-logo-interno{
+
+        display: flex;
+        margin:auto;
+        height: 10vmin;
+        width: 10vmin;
+        background-color: beige;
+         
+
+      }
+      .titulo-interno{
+        display: flex;
+        height: 10vmin;
+        width: 10vmin;
+        background-color: blueviolet;
+      
+
       }
 
 }
