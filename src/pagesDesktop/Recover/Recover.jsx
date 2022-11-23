@@ -8,48 +8,28 @@ const RecoverDesktop = () => {
     return (
        
        <>
-            <head>                
-                <title>Recuperar</title>
-            </head>
             <header>
                 <nav>
                     <div className="container-logo">
                         <img id="logobarra" src={LogoBarra} alt="logo" />
-                    </div>                        
+                    </div>   
                 </nav>
             </header>
-            <body>
-                <div className="container-alignment">
-                    <span id="a">Recuperar la contraseña</span> 
+            <div className="recoverypassworddesktop">
+                <h1>Recuperar la contraseña</h1>
+                <p>Al hacer clic en continuar recibiras un link al correo registrado para la recuperación de la contraseña</p>
+                <div className="line-separation"></div>
+                <form>
+                    <input type="email" placeholder="Ingresa el correo electronico"></input>
+                </form>
+                <div className="buttonrecoverydesktop">
+                    <button>Cancelar</button>
+                    <button>Continuar</button>
                 </div>
-                <div className="container-alignment">
-                    <h5 id="b">Al hacer clic en Continuar recibiras un link al correo registrado, para la recuperación de la contraseña.</h5>
-                </div>
-                <div className="container-alignment">
-                    <hr id="c"/>
-                </div>
-                <div className="container-alignment">
-                    <input id="d" type="text" placeholder="Ingresa el correo electronico registrado" />
-                </div>
-                <div>
-                    <div>
-                        <button id="boton-cancelar" type="imput">Cancelar</button>
-                    </div>
-                    <div>
-                        <button id="boton-continuar" type="imput">Continuar</button>
-                    </div>                    
-                </div>                
-            </body>
-
-            <footer>
-                    <FooterDesktop />        
-            </footer>
+            </div>
+            <FooterDesktop />
        </>
-
-
     )
-
-
-
 }
+
 export default RecoverDesktop;

@@ -7,6 +7,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faUser, faLock} from '@fortawesome/free-solid-svg-icons';
 import { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import RecoverDesktop from "../Recover/Recover";
 
 const LoginDesktopMain = () => {
 
@@ -122,6 +123,7 @@ const LoginDesktop = () => {
             <Routes>
                 <Route path="/" element={<Navigate replace to="/home" />} />
                 <Route path="/home" element={<LoginDesktopMain />} />
+                <Route path="/resetpassword" element={<RecoverDesktop />} />
             </Routes>
         </BrowserRouter>
     )
