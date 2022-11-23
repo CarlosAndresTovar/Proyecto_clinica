@@ -33,7 +33,7 @@
     }
     
     .inputDataRegister {
-        margin-top: 4vmin;
+        margin-top: 6vh;
         display: flex;
         flex-direction: column;
     }
