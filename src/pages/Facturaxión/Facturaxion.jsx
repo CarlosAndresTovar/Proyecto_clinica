@@ -19,7 +19,7 @@ const Facturaxion = () => {
                     </div>
                     <div className="receipt-body">
                         <div className="body-service">
-                            <span>Radiografias del tracto gastrointestinal inferior</span>
+                            <span>Radiografiás del tracto gastrointestinal inferior</span>
                             <span>Hospitalización</span>
                             <h4>Subtotal</h4>
                         </div>

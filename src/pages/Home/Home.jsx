@@ -18,13 +18,13 @@ const Mainhome = () => {
                 <div className="firstSection">
                     <div className="sectioncertifications">
                         <div className="Items-certifications">
-                            <img id="Certifications" src={Certifications} alt="Certifications"></img>
+                            <a href="/#"><img id="Certifications" src={Certifications} alt="Certifications"></img></a>
                         </div>
                         <span>Certificados</span>
                     </div>
                     <div className="section-medicalAppointments">
                         <div className="Items-medicalAppointments">
-                            <img id="medicalAppointments" src={medicalAppointments} alt="medicalAppointments"></img>
+                            <a href="/#"><img id="medicalAppointments" src={medicalAppointments} alt="medicalAppointments"></img></a>
                         </div>
                         <span>Citas medicas</span>
                     </div>
@@ -32,13 +32,13 @@ const Mainhome = () => {
                 <div className="secondSection">
                     <div className="autorizationsMipres">
                         <div className="Items-autorizationsMipres">
-                            <img id="autorizationsMipres" src={autorizationsMipres} alt="autorizationsMipres"></img>
+                            <a href="/#"><img id="autorizationsMipres" src={autorizationsMipres} alt="autorizationsMipres"></img></a>
                         </div>
                         <span>Autorizaciones mipres</span>
                     </div>
                     <div className="xRays">
                         <div className="Items-xRays">
-                            <img id="xRays" src={xRays} alt="xRays"></img>
+                            <a href="/#"><img id="xRays" src={xRays} alt="xRays"></img></a>
                         </div>
                         <span>Imágenes diagnosticas</span>
                     </div>
