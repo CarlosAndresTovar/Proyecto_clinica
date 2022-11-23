@@ -14,11 +14,11 @@ const Clinicalstatus = () => {
             <Header />
             <div className="Clinicalstatus">
                 <div className="sectionstatus">
-                    <h1>Estado clinico</h1>
+                    <h1>Estado Clínico</h1>
                     <div className="statuspatien">
                         <div className="sectionfirst">
                             <div className="heartrate">
-                                <span>Ritmo cardiaco</span>
+                                <span>Ritmo cardíaco</span>
                                 <img src={Heartrate} alt="heartrate"></img>
                                 <span>75 por min</span>
                             </div>
@@ -35,7 +35,7 @@ const Clinicalstatus = () => {
                         </div>
                         <div className="sectionsecond">
                             <div className="strain">
-                                <span>Tension</span>
+                                <span>Tensión</span>
                                 <img src={Strain} alt="heartrate"></img>
                                 <span>130/80</span>
                             </div>
@@ -62,7 +62,7 @@ const Clinicalstatus = () => {
                             </div>
                             <div className="indications">
                                 <h3>Posologia:</h3>
-                                <span>Tomar 1 tableta diaria en las mañanas todos los dias</span>
+                                <span>Tomar 1 tableta diaria en las mañanas todos los días</span>
                             </div>
                         </div>
                         <div className="medicinetwo">

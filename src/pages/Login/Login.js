@@ -98,7 +98,7 @@ const Logincomponent = () => {
                                         </form>
                                         <div className="section-recording">
                                             <input type="checkbox"></input>Recordarme
-                                            <a href="/resetpassword">¿Olvidaste tu Contraseña?</a>
+                                            <a href="/resetpassword">¿Olvidaste tu contraseña?</a>
                                         </div>
                                         <div className="section-register">
                                             <a href="/register">Registrarse</a>
@@ -106,7 +106,7 @@ const Logincomponent = () => {
                                     </>
                                 }
                                 {!local &&
-                                    <button onClick={handleSubmit}>Login</button>
+                                    <button onClick={handleSubmit}>Iniciar sesión</button>
                                 }
                             </div>
                         </div>

@@ -40,7 +40,7 @@ const Mainhome = () => {
                         <div className="Items-xRays">
                             <img id="xRays" src={xRays} alt="xRays"></img>
                         </div>
-                        <span>Imagenes diagnosticas</span>
+                        <span>Imágenes diagnosticas</span>
                     </div>
                 </div>
                 <div className="thirdSection">

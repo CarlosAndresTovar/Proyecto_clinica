@@ -21,8 +21,8 @@ const Resetpassword = () => {
                                        }}/>
             <section className="textResetPassword">
                 <p>
-                    Al hacer clic en Continuar recibiras un link al correo registrado,
-                    para la recuperacion de la contraseña.
+                    Al hacer click en continuar recibirás un link al correo registrado
+                    para la recuperación de la contraseña.
                 </p>
             </section>
             <div className="buttonContinue">

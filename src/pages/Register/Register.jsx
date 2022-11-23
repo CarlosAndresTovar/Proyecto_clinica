@@ -61,7 +61,7 @@ const Register = () => {
             </div>
             <section className="dataTreatment">
                 <div className="Authorization">
-                    <input type="checkbox"></input><span>Autolizo el</span> 
+                    <input type="checkbox"></input><span>Autorizo el</span> 
                     <a href="/register">tratamiento de datos personales *</a>                            
                 </div>
                 <div className="toAccept">
@@ -72,8 +72,8 @@ const Register = () => {
             <section className="textTreatment">
                 <div className="sectionTreatment">
                     <p>
-                        Al dar click en enviar, Aceptas que la Clinica Imperial almacene
-                        y procese la informacion personal suministrada arriba
+                        Al dar click en enviar aceptas que la Clínica Imperial almacene
+                        y procese la información personal suministrada arriba.
                     </p>
                 </div>
             </section>

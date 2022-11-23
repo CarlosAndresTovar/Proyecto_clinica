@@ -15,8 +15,8 @@ const Calls  = () => {
                     <span>Paciente</span>
                 </div>
                 <div className="parrafopaciente">
-                    <p>Es necesario tener acceso a un microfono y una camara para
-                        unirse a la videollamada.
+                    <p>Es necesario tener acceso a un micrófono y una cámara para
+                        unirse a la video-llamada.
                     </p>
                 </div>
                 <div className="botonespaciente">

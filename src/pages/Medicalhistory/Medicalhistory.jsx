@@ -40,7 +40,7 @@ const Medicalhistory = () => {
                         <p>Fecha: 18/09/2022</p>
                         <p>Ubicación: Ala este piso 4 cama 15-C</p>
                         <p>Medico tratante: Dr Benito Perez Psiquiatra</p>
-                        <p>Cuenta con los siguientes diagnosticos</p>
+                        <p>Cuenta con los siguientes diagnósticos</p>
                         <p>1. Trastorno mental y de comportamiento</p>
                         <p>Asociado a consumo de sustancias no especificante</p>
                         <p>metanfetaminas</p>
@@ -64,7 +64,7 @@ const Medicalhistory = () => {
                 </div>
                 <div className="diagnostic-imaging">
                     <div className="titlediagnostic-imaging">
-                        <h1>Imagenes diagnosticas</h1>
+                        <h1>Imágenes diagnosticas</h1>
                     </div>
                     <div className="imagediagnostic-imaging">
                         <i><img src={Union2} alt="Union2"></img></i>
