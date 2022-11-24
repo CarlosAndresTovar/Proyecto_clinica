@@ -8,6 +8,7 @@ import {faUser, faLock} from '@fortawesome/free-solid-svg-icons';
 import { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import RecoverDesktop from "../Recover/Recover";
+import RegisterDesktop from "../Register/Register";
 
 const LoginDesktopMain = () => {
 
@@ -124,6 +125,7 @@ const LoginDesktop = () => {
                 <Route path="/" element={<Navigate replace to="/home" />} />
                 <Route path="/home" element={<LoginDesktopMain />} />
                 <Route path="/resetpassword" element={<RecoverDesktop />} />
+                <Route path="/register" element={<RegisterDesktop />} />
             </Routes>
         </BrowserRouter>
     )

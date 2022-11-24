@@ -23,8 +23,8 @@ const RecoverDesktop = () => {
                     <input type="email" placeholder="Ingresa el correo electronico"></input>
                 </form>
                 <div className="buttonrecoverydesktop">
-                    <button>Cancelar</button>
-                    <button>Continuar</button>
+                    <a href="/home"><button>Cancelar</button></a>
+                    <a href="/home"><button>Continuar</button></a>
                 </div>
             </div>
             <FooterDesktop />

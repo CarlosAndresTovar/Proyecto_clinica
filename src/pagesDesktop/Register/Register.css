@@ -1,145 +1,187 @@
 @media only screen and (min-width: 1200px) {
-    *{
-        margin: 0;  
-        padding: 0%;
-        box-sizing: border-box;
-      }
-      
-      header{
-          height: 13vh;
-          width: 100vw;
-          background: rgba(44, 60, 82, 0.8);
-          
-      }
-      
-      #logobarra{
-          display: flex;
-          position: relative;
-          height: 13vmin;
-          width: 13vmin;
-          padding: 5px 5px;
-              
-      }
-      
-      .container-logo{
-          align-items: left;
-          width: 100%;
-        
-      }
-
-      .container-registro{
-        
-        display: flex;
-        position: relative;
-        height: 66vh;
-        width: 70vw;
-        padding: 5px 5px;
-        /*background-color: blueviolet;*/
-
-      }
-      .container-formulario-1{
-
-        display: flex;
-        position: relative;
-        height: 64vh;
-        width: 32vw;
-        padding: 5px 5px;
+  *{
+      margin: 0;  
+      padding: 0%;
+      box-sizing: border-box;
+    }
+  header{
+    display: flex;
+    flex-direction: row;
+    height: 13vh;
+    width: 100vw;
+    background: rgba(44, 60, 82, 0.8);
+  }
+  .buttonlogin {
+    margin-left: auto;
+    margin-right: 2vh;
+  }
+  .buttonlogin button {
+    background-color: #57B0A3;
+    font-size: 2.5vh;
+  }
+  #logobarra{
+    display: flex;
+    position: relative;
+    height: 13vmin;
+    width: 13vmin;
+    padding: 5px 5px;  
+  }
+  .container-logo{
+    align-items: left;
+    width: 100%;
+  }
+  .container-registro{
+    display: flex;
+    position: relative;
+    height: 66vh;
+    width: 70vw;
+    padding: 5px 5px;
+    /*background-color: blueviolet;*/
+    }
+  .container-formulario-1{
+    color: #000;
+    display: flex;
+    position: relative;
+    height: 64vh;
+    width: 32vw;
+    padding: 5px 5px;
     /*    background-color: aqua;*/
-        text-align: center;
-        
-
-      }
-      .container-formulario-2{
-        display: flex;
-        position: relative;
-        height: 64vh;
-        width: 32vw;
-        padding: 5px 5px;
-        /*background-color:brown;*/
-                
-      }
-
-      div .linea{
-        display: flex;
-        position: relative;
-        height: 55vh;
-        width: 6vw;
-        /*background-color: azure;*/
-        align-self: center;
-        align-items: center;
-        align-content: center;
-
-      }
-
-      .ln{
-        
-        display: flex;
-        position: relative;
-        height: 55vh;      
-        align-self: center;        
-        background-color: black; 
-        margin: 2vw;
-
-      }
-
-      input {
-        position: relative;
-        display: flex;
-        width: 20vw;
-        height: 5vh ;
-        border-radius: 1vmin;
-        border: 0vmin;
-        margin-top: 3vmin;
-        margin-left: 9.5vmin;
-        
-      }
-            
-      .registrarse{
-        display: flex;
-        position: relative;
-        height: 5vh;
-        width: 10vw;
-        margin-left: 9.5vmin;
-
-      }
-      br{
-        height: 1vh;
-      }
-      .condiciones{
-        font-size: small;
-        color: #000;
-        text-align: left;
-        margin-left: 9.5vmin;
-      }
-      .checkbox{
-        display: flex;
-        position: relative;
-        height: 3vh;
-        width: 3vw;
-        margin-left: 8vmin;
-        border-radius: 1vmin;
-
-      }
-
-      button{
-        background-color: #2C3C52;
-        border-radius: 8px;
-        border-style: none;
-        color: #fff;
-        width: 14vw;
-        height: 7vh;
-        margin-left: 14vmin;
-        margin-top: 3vmin;
+    text-align: center;
+  }
+  .container-formulario-1 select {
+    width: 33.5vh;
+    height: 5vh;
+    margin: 3vh;
+    border: none;
+    padding: 1.5vh;
+  }
+  .container-formulario-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color:brown;*/ 
+  }
+  .terminosycondiciones {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-top: 2vh;
+  }
+  .tratamientodedatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.2vh;
+  }
+  .tratamientodedatos input {
+    margin: 0;
+    width: 2.5vh;
+    height: 2.5vh;
+  }
+  .tratamientodedatos span {
+    font-size: 1.5vh !important;
+    margin: 0.4vh;
+    color: #000;
+  }
+  .sudbrayar {
+    text-decoration-line: underline;
+  }
+  .aceptarterminso {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.2vh;
+  }
+  .aceptarterminso input {
+    margin: 0;
+    width: 2.5vh;
+    height: 2.5vh;
+  }
+  .aceptarterminso span {
+    font-size: 1.5vh !important;
+    margin: 0.4vh;
+    color: #000;
+  }
+  .container-formulario-2 span {
+    font-size: 2vh;
+  }
+  div .linea{
+    display: flex;
+    position: relative;
+    height: 55vh;
+    width: 6vw;
+    /*background-color: azure;*/
+    align-self: center;
+    align-items: center;
+    align-content: center
+  }
+  .ln{
+    display: flex;
+    position: relative;
+    height: 55vh;      
+    align-self: center;        
+    background-color: black; 
+    margin: 2vw
+  }
+  .linea hr {
+    border: none;
+    border-left: solid #000 .1vh;
+  }
+  input {
+    position: relative;
+    display: flex;
+    width: 20vw;
+    height: 5vh ;
+    border-radius: 1vmin;
+    border: 0vmin;
+    margin-top: 3vmin;
+    margin-left: 9.5vmin;
+    padding: 2.5vh;
     
-    }
-
-    .texto-aceptar{
-        position: relative;
-        margin:0%;
-        font-size: small;
-        color: #000;
-
-
-    }
+  }      
+  .registrarse{
+    display: flex;
+    position: relative;
+    height: 5vh;
+    width: 10vw;
+    margin-left: 9.5vmin
+  }
+  br{
+    height: 1vh;
+  }
+  .condiciones{
+    font-size: small;
+    color: #000;
+    text-align: left;
+    margin-left: 9.5vmin;
+  }
+  .checkbox{
+    display: flex;
+    position: relative;
+    height: 3vh;
+    width: 3vw;
+    margin-left: 8vmin;
+    border-radius: 1vmin
+  }
+  button{
+    background-color: #2C3C52;
+    border-radius: 8px;
+    border-style: none;
+    color: #fff;
+    width: 14vw;
+    height: 7vh;
+    margin-left: 14vmin;
+    margin-top: 3vmin;
+  }
+  .texto-aceptar{
+    position: relative;
+    margin:0%;
+    font-size: small;
+    color: #000;
+  }
 
 }
