@@ -26,7 +26,7 @@ const RegisterDesktop = () => {
                             <input className="cajas" type="text" placeholder="Nombres"/>
                             <input className="cajas" type="text" placeholder="Apellidos"/>
                             <input className="cajas" type="text" placeholder="Tipo de identificación"/>
-                            <p className="condiciones">Al dar clic en enviar, Aceptas que Clinica Imperial almacene y procese la informacion personal suministrada arriba.</p>                          
+                            <p className="condiciones">Al dar clic en enviar, aceptas que Clinica Imperial almacene y procese la información personal suministrada arriba.</p>                          
                         </form>                        
                     </div> 
                     <div className="linea">
