@@ -48,12 +48,9 @@
     /*    background-color: aqua;*/
     text-align: center;
   }
-  .container-formulario-1 select {
-    width: 33.5vh;
-    height: 5vh;
-    margin: 3vh;
-    border: none;
-    padding: 1.5vh;
+  .container-formulario-1 p {
+    margin-top: 2vh;
+    width: 40vh;
   }
   .container-formulario-2{
     display: flex;
@@ -62,11 +59,15 @@
     align-items: center;
     /*background-color:brown;*/ 
   }
+  .container-formulario-2 button {
+    margin: 0;
+  }
   .terminosycondiciones {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
+    margin: auto;
     margin-top: 2vh;
+    margin-bottom: 5vh;
   }
   .tratamientodedatos {
     display: flex;
@@ -77,8 +78,10 @@
   }
   .tratamientodedatos input {
     margin: 0;
-    width: 2.5vh;
-    height: 2.5vh;
+    width: 2.6vh;
+    height: 2.6vh;
+    margin-right: 2vh;
+    border: none;
   }
   .tratamientodedatos span {
     font-size: 1.5vh !important;
@@ -100,6 +103,8 @@
     margin: 0;
     width: 2.5vh;
     height: 2.5vh;
+    margin-right: 2vh;
+    border: none;
   }
   .aceptarterminso span {
     font-size: 1.5vh !important;

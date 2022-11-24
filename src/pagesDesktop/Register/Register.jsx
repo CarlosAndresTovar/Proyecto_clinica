@@ -25,13 +25,7 @@ const RegisterDesktop = () => {
                             <input className="cajas" type="text" placeholder="Contraseña"/>
                             <input className="cajas" type="text" placeholder="Nombres"/>
                             <input className="cajas" type="text" placeholder="Apellidos"/>
-                            <select name="userTypeDocumentDesktop" id="userTypeDocumentDesktop">
-                                <option value="">Tipo de Identificación</option>
-                                <option value="Cedula">Cedula</option>
-                                <option value="Cedula Extrangera">Cedula Extrangera</option>
-                                <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>                     
-                                <option value="Pasaporte">Pasaporte</option>
-                            </select>
+                            <input className="cajas" type="text" placeholder="Tipo de identificación"/>
                             <p className="condiciones">Al dar clic en enviar, Aceptas que Clinica Imperial almacene y procese la informacion personal suministrada arriba.</p>                          
                         </form>                        
                     </div> 
