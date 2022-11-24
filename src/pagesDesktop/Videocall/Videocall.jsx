@@ -1,6 +1,5 @@
 import React from "react";
 import './Videocall.css';
-import LogoBarra from '../Images/LogoBarra.png'
 import FooterDesktop from "../Footer/Footer"
 import LogoVideo from"../Images/videouser.png"
 import NavBar from'../NavBar/NavBar'
@@ -38,15 +37,10 @@ const VideoCall = () => {
                     <div className="caja-video">
                     </div>                    
                 </div>
-
-
-
-                
+               
             </div>
             <FooterDesktop />
-        
-        
-        
+               
         </>
 
 
