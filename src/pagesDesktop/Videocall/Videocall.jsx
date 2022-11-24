@@ -3,18 +3,13 @@ import './Videocall.css';
 import LogoBarra from '../Images/LogoBarra.png'
 import FooterDesktop from "../Footer/Footer"
 import LogoVideo from"../Images/videouser.png"
+import NavBar from'../NavBar/NavBar'
 
 
 const VideoCall = () => {
     return(
         <>
-            <header>
-                <nav>
-                    <div className="container-logo">
-                        <img id="logobarra" src={LogoBarra} alt="logo" />
-                    </div>   
-                </nav>
-            </header>
+            <NavBar />
             <div className="container-body">
                 <div className="container-form">
                     <div className="container-logo-interno">
