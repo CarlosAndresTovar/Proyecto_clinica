@@ -34,20 +34,19 @@
         margin-left: 0vw;
         height: 68vh;
         width: 100vw;
-        background-color: blanchedalmond;
         align-items: center;    
 
       }
 
       .container-form{
-        background-color: blue;
-        display: flex;
+        
+        display: flex;        
         position: relative;
-        margin-left: 0vw;
+        flex-direction: column;
+        margin-left: 1vmin;
         height: 67vh;
         width: 35vw;
-        align-content: center;
-        align-self: center;
+       
 
 
       }
@@ -58,30 +57,36 @@
         margin-left: 0vw;
         height: 67vh;
         width: 60vw;
-        background-color: aqua;
+        
 
       }
 
-      .linea-intermedia{
-        background-color:aliceblue;
+    
+
+      p .parrafo{
         display: flex;
-        position: relative;
-        height: 67vh;
-        width: 5vw;
-
-      }
-
-      p {
         align-self: center;
         align-content: center;
-        margin-right: 2vh;
+        font-size: small;
         margin:20vmin;
         text-align: center;
+        
       }
 
-      .titulo{
+      .principal-title{
+        align-self: center;        
+        margin: auto;
+        color: black;
 
+      }
+
+      .texto-del-form{
+        display: flex;
+        font-size: 2vmin;
         color: #000;
+        padding: 2vmin;
+        margin-top: 2vmin;
+
       }
 
       .caja-video{
@@ -97,20 +102,73 @@
       .container-logo-interno{
 
         display: flex;
-        margin:auto;
-        height: 10vmin;
-        width: 10vmin;
-        background-color: beige;
-         
+        height: 15vmin;
+        width: 15vmin;
+        align-self: center;
+        margin-top: 6vmin;
+               
 
       }
+      .logo-interno{
+        display: flex;
+        height: 15vmin;
+        width: 15vmin;
+        align-self: center;
+        margin: auto;
+
+      }
+
       .titulo-interno{
         display: flex;
-        height: 10vmin;
-        width: 10vmin;
-        background-color: blueviolet;
+        height: 7vmin;
+        width: 45vmin;
+        margin-top: 2vmin;
+        align-self: center;
+        text-align: center;
       
 
       }
+
+      .container-linea-intermedia{
+        
+        position: relative;
+        height: 67vh;
+        width: 5vw;
+
+      }
+
+      .division-line{
+        display: flex;
+        position: relative;
+        height: 52vmin;      
+        align-self: center;        
+        background-color: black; 
+        border-color: #000;
+        opacity: 100%;
+        margin: 7.5vmin;
+
+      }
+      button{
+        background-color: #2C3C52;
+        border-radius: 8px;
+        border-style: none;
+        color: #fff;
+        width: 14vw;
+        height: 7vh;
+        margin: auto;
+        font-size: medium;
+     
+        
+      }
+      .container-button{
+        display: flex;
+        width: 30vmin;
+        height: 8vmin;
+        margin-top: 2vmin;
+        align-self: center;
+        align-content: center;
+
+      }
+      
 
 }

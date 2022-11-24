@@ -21,19 +21,29 @@ const VideoCall = () => {
                         <img className="logo-interno" src={LogoVideo} />
                     </div>
                     <div className="titulo-interno">
-                        <p>Nombre de usuario</p>
+                            <span className="principal-title">Nombre de usuario</span>
+                    </div>
+                    <div className="texto-del-form">
+                        <p className="parrafo"> Es necesario tener acceso a un microfono y una cámara para unirse a la video llamada. </p>
+                    </div>
+                    <div className="container-button">
+                        <button type="input">Permitir</button>
+                    </div>
+                    <div className="container-button">
+                        <button type="input">Unirse</button>
                     </div>
                     
                     
                 </div>
-                <div className="linea-intermedia">
-                    <hr />
+                <div className="container-linea-intermedia">
+                    <hr className="division-line"/>
                 </div>
 
                 <div className="container-video">
                     <div className="caja-video">
                     </div>                    
                 </div>
+
 
 
                 
