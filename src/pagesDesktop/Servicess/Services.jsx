@@ -1,5 +1,7 @@
 import React from "react";
 import './Services.css';
+import NavBar from '../NavBar/NavBar'
+import FooterDesktop from "../Footer/Footer";
 
 const ServicesDesktop = () => {
     return(
