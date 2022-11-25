@@ -5,5 +5,79 @@
         padding: 0%;
         box-sizing: border-box;
       }
+      .container-buttons{
+        display: flex;
+        flex-direction: row;
+        height: 66vh;
+        width: 95vw;
+        
+        
 
-    }
+      }
+      
+      .container-buttons-internal{
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+        width: 45vw;
+        
+        margin: auto;
+        align-content: center;
+      }
+       .line-division{
+        display: flex;
+        height: 60vh;
+        width: 4vw;
+        margin: auto;
+
+       } 
+       .button{
+        
+        background-color: #2C3C52;
+        border-radius: 8px;
+        border-style: none;
+        color: #fff;       
+        font-size:medium;
+        text-align: left;
+        padding: 2vmin;
+        width: 45vmin;
+        
+        
+        
+      }
+      .division-line{
+        display: flex;
+        position: relative;
+        height: 52vmin;      
+        align-self: center;        
+        background-color: black; 
+        border-color: #000;
+        opacity: 70%;
+        margin: auto;
+
+      }
+      .principal-title{
+        align-self: center;        
+        color: black;
+        width: 24vmin;
+        height: 5vmin;
+        font-style: normal;
+        
+
+      }
+      .button-box{
+        
+        align-self: center;
+        width: 70vmin;
+        height: 25vh;
+        
+
+      }
+      .container-text-title{
+        display: flex;
+        width: 43vmin;
+        height: 10vh;
+        margin: auto;
+        
+      }
+}
