@@ -9,6 +9,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import RecoverDesktop from "../Recover/Recover";
 import RegisterDesktop from "../Register/Register";
+import Options from "../Options/Options";
 
 const LoginDesktopMain = () => {
 
@@ -111,6 +112,9 @@ const LoginDesktopMain = () => {
                     </div>
                     <FooterDesktop />
                 </>
+            }
+            {local &&
+                <Options />
             }
         </>
 
