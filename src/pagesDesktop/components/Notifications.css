@@ -1,0 +1,44 @@
+.notifications.active{
+    background-color: #2c3c52bb;
+    width: 30vmin;
+    padding: 3vmin;
+    transition: width,background-color,padding;
+    transition-duration: 500ms;
+}
+
+.notifications{
+    background-color: transparent;
+    width: 0vmin;
+    height: 50vmin;
+    border-radius: 0vmin 2vmin 2vmin 0vmin;
+    position: absolute;
+    left: 0px;
+    top: 18vmin;
+    padding-left: 0.5vmin;
+    padding-right: 0.5vmin;
+    transition: width, background-color,padding;
+    transition-duration: 500ms;
+}
+
+.bell{
+    position: absolute;
+    right:  -2.5vmin;
+    top: -4.5vmin;
+}
+.bell p{
+    background-color: red;
+    border-radius: 12vmin;
+    height: 2vmin;
+    width: 2vmin;
+    position: absolute;
+    top: 0.5vmin;
+    right: 0;
+    font-size: 1.5vmin;
+}
+
+.list{
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0.4vmin;
+}

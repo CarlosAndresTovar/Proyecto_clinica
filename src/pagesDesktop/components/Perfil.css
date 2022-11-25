@@ -1,0 +1,86 @@
+.perfil.active{
+    background-color: #2c3c529a;
+    height: 46vmin;
+    padding-top: 2vmin;
+    padding-bottom: 3.5vmin;
+    transition: all;
+    transition-duration: 500ms;
+}
+.perfil{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0px;
+    top: 13vmin;
+    width: 31vmin;
+    height: 0vmin;
+    padding-left: 4vmin;
+    padding-right: 4vmin;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: white;
+    font-weight: 500;
+    font-size: 2vmin;
+    z-index: 20;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+
+.type{
+    background-color: white;
+    display: flex;
+    height: 6vmin;
+    width: 100%;
+    border-radius: 15vmin;
+    margin-top: 1vmin;
+    margin-bottom: 3vmin;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.patient{
+    background-color: white;
+    display: flex;
+    width: 45%;
+    height: 100%;
+    border-radius: 15vmin;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.familiar{
+    background-color: #57b0a3;
+    display: flex;
+    width: 55%;
+    height: 100%;
+    border-radius: 15vmin;
+    align-items: center;
+    justify-content: center;
+}
+
+.option{
+    display: flex;
+    height: 7vmin;
+    width: 100%;
+    align-items: center;
+}
+
+.exit{
+    background-color: #57b0a3;
+    width: 15vmin;
+    height: 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15vmin;
+}
+
+.perfil img{
+    width: 6vmin;
+    height: 6vmin;
+    margin-right: 2vmin;
+}

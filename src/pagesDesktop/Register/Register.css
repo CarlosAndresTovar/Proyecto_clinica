@@ -136,7 +136,7 @@
     border: none;
     border-left: solid #000 .1vh;
   }
-  input {
+  .cajas {
     position: relative;
     display: flex;
     width: 20vw;

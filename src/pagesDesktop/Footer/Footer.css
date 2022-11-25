@@ -33,6 +33,10 @@
         margin: 0.7vh;
     }
 
+    .items-social{
+        width: 6vmin;
+    }
+
     .line-vertical {
         width: 2%;
         height: 100%;
