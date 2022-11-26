@@ -1,7 +1,7 @@
 import './App.css';
 import Login from './pages/Login/Login';
 import React, {useState, useEffect} from 'react';
-import LoginDesktop from './pagesDesktop/Login/login';
+import LoginDesktop from './pagesDesktop/ClinicaStatus/ClinicaStatus';
 
 function App() {
 
