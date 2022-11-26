@@ -19,7 +19,7 @@ const Options = () => {
                 <div className="firstsectionhomedesktop">
                     <div className="section-options">
                         <div className="section-images">
-                            <img src={CertificationsDesktop} alt="CertificationsDesktop"></img>
+                            <a href="/home"><img src={CertificationsDesktop} alt="CertificationsDesktop"></img></a>
                         </div>
                         <div className="section-name-options">
                             <h3>Certificados</h3>
@@ -27,7 +27,7 @@ const Options = () => {
                     </div>
                     <div className="section-options">
                         <div className="section-images">
-                            <img src={MedicalAppointments} alt="MedicalAppointments"></img>
+                            <a href="/home"><img src={MedicalAppointments} alt="MedicalAppointments"></img></a>
                         </div>
                         <div className="section-name-options">
                             <h3>Citas medicas</h3>
@@ -35,7 +35,7 @@ const Options = () => {
                     </div>
                     <div className="section-options">
                         <div className="section-images">
-                            <img src={xRays} alt="xRays"></img>
+                            <a href="/home"><img src={xRays} alt="xRays"></img></a>
                         </div>
                         <div className="section-name-options">
                             <h3>Imagenes diagnosticas</h3>
@@ -48,7 +48,7 @@ const Options = () => {
                 <div className="secondsectionhomedesktop">
                     <div className="section-options">
                         <div className="section-images">
-                            <img src={AutorizationsMipres} alt="AutorizationsMipres"></img>
+                            <a href="/home"><img src={AutorizationsMipres} alt="AutorizationsMipres"></img></a>
                         </div>
                         <div className="section-name-options">
                             <h3>Autorizaciónes mipres</h3>
@@ -64,7 +64,7 @@ const Options = () => {
                     </div>
                     <div className="section-options">
                         <div className="section-images">
-                            <img src={CheckBilling} alt="CheckBilling"></img>
+                            <a href="/facturaxion"><img src={CheckBilling} alt="CheckBilling"></img></a>
                         </div>
                         <div className="section-name-options">
                             <h3>Consultar facturación</h3>

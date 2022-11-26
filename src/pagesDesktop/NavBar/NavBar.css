@@ -53,4 +53,46 @@
   .search::placeholder{
     font-size: 2.5vmin;
   }
+  .Desplegar-perfil {
+    position: fixed;
+    top: 13vmin;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40vmin;
+    height: 42vmin;
+    margin-left: auto;
+    background-color: #2C3C52;
+  }
+  .sections-perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 2vmin;
+    margin-left: 4vmin;
+  }
+  .sections-perfil img {
+    width: 7vmin;
+    height: 7vmin;
+  }
+  .sections-perfil h3 {
+    margin-left: 2vmin;
+    font-size: 3vmin;
+  }
+  .Desplegar-perfil button {
+    background-color: #57B0A3;
+    font-size: 4vmin;
+  }
+  .sections-perfil a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .salir-desktop a {
+    text-decoration: none;
+    color: #fff;
+  }
 }

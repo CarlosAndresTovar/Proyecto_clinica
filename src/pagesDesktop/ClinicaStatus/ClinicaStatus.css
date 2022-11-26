@@ -1,182 +1,185 @@
 @media only screen and (min-width: 1200px) {
-*{
-margin: 0;  
-padding: 0%;
-box-sizing: border-box;
-}
-.title{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    color: #000;
-    font-size: 100%;
-    padding: 2vh;
-}
+    *{
+    margin: 0;  
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    .title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        color: #000;
+        font-size: 100%;
+        padding: 2vh;
+    }
 
-.sub-title{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000;
-    font-size: 130%;
-}
+    .sub-title{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000;
+        font-size: 130%;
+    }
 
-.container-separate{
-    display: flex;
-    width: 30vh;
-}
+    .container-separate{
+        display: flex;
+        width: 30vh;
+    }
 
-.superior-container{
-    display: flex;
-    flex-direction: row;    
-    justify-content: space-between;
-    align-items: center;
-    margin: 1%;
-    width: 130vh;
+    .superior-container{
+        display: flex;
+        flex-direction: row;    
+        justify-content: space-between;
+        align-items: center;
+        margin: 1%;
+        width: 130vh;
+        background-image: url("/src/pagesDesktop/Images/enfermera.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 45vmin;
+
+    }
+
+    .general-container-one{
+        background-color: #fff;
+        color: #000;
+        width: 100%;
+        font-size: 1.5vh;
+        border-radius: 15px;
+    }
+
+    .general-container-two{
+        background-color: #fff;
+        color: #000;
+        width: 100%;
+        font-size: 2vh;
+        border-radius: 15px;
+    }
+
+    .superior-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     
-    
-}
+    }
 
-.general-container-one{
-    background-color: #fff;
-    color: #000;
-    width: 100%;
-    font-size: 1.5vh;
-    border-radius: 15px;
-}
+    .cardiact-rite{
 
-.general-container-two{
-    background-color: #fff;
-    color: #000;
-    width: 100%;
-    font-size: 2vh;
-    border-radius: 15px;
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33%;
+        padding: 4%;
+        border-right: solid #000 0.1vh;
+        border-bottom: solid #000 0.1vh;
 
-.superior-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-   
-}
+    }
+    .temperture{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33%;
+        padding: 4%;
+        border-right: solid #000 0.1vh;
+        border-bottom: solid #000 0.1vh;
 
-.cardiact-rite{
+    }
+    .pressure{  
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 33%;
-    padding: 4%;
-    border-right: solid #000 0.1vh;
-    border-bottom: solid #000 0.1vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33%;
+        padding: 4%;
+        border-bottom: solid #000 0.1vh;
+    }
 
-}
-.temperture{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 33%;
-    padding: 4%;
-    border-right: solid #000 0.1vh;
-    border-bottom: solid #000 0.1vh;
+    .inferior-section{
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;   
 
-}
-.pressure{  
+    }
+    .tension-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33%;
+        padding: 4%;
+        border-right: solid #000 0.1vh;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 33%;
-    padding: 4%;
-    border-bottom: solid #000 0.1vh;
-}
 
-.inferior-section{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;   
+    }
+    .breathing-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33%;
+        padding: 4%;
+        border-right: solid #000 0.1vh;
 
-}
-.tension-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 33%;
-    padding: 4%;
-    border-right: solid #000 0.1vh;
-    
+    }
 
-}
-.breathing-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 33%;
-    padding: 4%;
-    border-right: solid #000 0.1vh;
-    
-}
+    .glucose-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33%;   
+        padding: 4%;    
 
-.glucose-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 33%;   
-    padding: 4%;    
-    
 
-}
+    }
 
-.medicines {
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    color: #000;
-    border-radius: 15px;
-    width: 100%;
-}
+    .medicines {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        color: #000;
+        border-radius: 15px;
+        width: 100%;
+    }
 
-.medicineone {
-    display: flex;
-    flex-direction: row;
-    border-bottom: solid 0.1vh;
-}
-.medicine {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 30%;
-    margin: 1vh;
-}
-.indications {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 70%;
-}
+    .medicineone {
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 0.1vh;
+    }
+    .medicine {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 30%;
+        margin: 1vh;
+    }
+    .indications {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+    }
 
-.medicinetwo {
-    display: flex;
-    flex-direction: row;
-    border-bottom: solid 0.1vh;
-}
-.medicinethree {
-    display: flex;
-    flex-direction: row;
-    border-bottom: solid 0.1vh;
-}
-.medicinefour {
-    display: flex;
-    flex-direction: row;
-    border-bottom: solid 0.1vh;
-}
-.medicinefive {
-    display: flex;
-    flex-direction: row;
-}
-.text-posologia{
-    font-size: 2vh;
-    text-align: left;
-}
+    .medicinetwo {
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 0.1vh;
+    }
+    .medicinethree {
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 0.1vh;
+    }
+    .medicinefour {
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 0.1vh;
+    }
+    .medicinefive {
+        display: flex;
+        flex-direction: row;
+    }
+    .text-posologia{
+        font-size: 2vh;
+        text-align: left;
+    }
 
 }
 

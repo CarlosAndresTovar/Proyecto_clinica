@@ -1,8 +1,8 @@
 import React from "react";
 import './Videocall.css';
-import FooterDesktop from "../Footer/Footer"
-import LogoVideo from"../Images/videouser.png"
-import NavBar from'../NavBar/NavBar'
+import FooterDesktop from "../Footer/Footer";
+import LogoVideo from"../Images/videouser.png";
+import NavBar from'../NavBar/NavBar';
 
 
 const VideoCall = () => {
@@ -12,7 +12,7 @@ const VideoCall = () => {
             <div className="container-body">
                 <div className="container-form">
                     <div className="container-logo-interno">
-                        <img className="logo-interno" src={LogoVideo} />
+                        <img className="logo-interno" src={LogoVideo} alt="LogoVideo"/>
                     </div>
                     <div className="titulo-interno">
                             <span className="principal-title">Nombre de usuario</span>

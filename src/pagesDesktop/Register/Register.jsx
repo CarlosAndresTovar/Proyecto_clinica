@@ -52,7 +52,7 @@ const RegisterDesktop = () => {
                                 <span className="sudbrayar">términos y condiciones*</span>
                             </div>
                         </div>
-                        <button type="input">Enviar</button>
+                            <a href="/home"><button type="input">Enviar</button></a>
                     </div>
 
                 </div>                

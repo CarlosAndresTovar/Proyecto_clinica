@@ -148,7 +148,7 @@
         margin: 7.5vmin;
 
       }
-      button{
+      .container-button button{
         background-color: #2C3C52;
         border-radius: 8px;
         border-style: none;

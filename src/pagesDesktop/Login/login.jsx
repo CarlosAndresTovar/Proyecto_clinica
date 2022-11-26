@@ -11,6 +11,10 @@ import RecoverDesktop from "../Recover/Recover";
 import RegisterDesktop from "../Register/Register";
 import Options from "../Options/Options";
 import Sincronization from "../Sincronization/Sincronization";
+import Videocall from "../Videocall/Videocall";
+import Historyclinical from "../History/History";
+import ClinicaStatus from "../ClinicaStatus/ClinicaStatus";
+import Billing from "../billing/Billing";
 
 const LoginDesktopMain = () => {
 
@@ -140,6 +144,79 @@ const Validasincronizationdesktop = () => {
     )
 }
 
+const Validatevideocall = () => {
+    
+    const items = JSON.parse(localStorage.getItem('account'));
+    
+    return (
+        <>
+            {items &&
+                <Videocall />
+            }
+            {!items &&
+                <Routes>
+                    <Route path="/" element={<Navigate replace to="/home" />} />
+                </Routes>
+            }
+        </>
+    )
+}
+
+const Validatemedicalhistoy = () => {
+    
+    const items = JSON.parse(localStorage.getItem('account'));
+    
+    return (
+        <>
+            {items &&
+                <Historyclinical />
+            }
+            {!items &&
+                <Routes>
+                    <Route path="/" element={<Navigate replace to="/home" />} />
+                </Routes>
+            }
+        </>
+    )
+}
+
+const Validatemedicalstatus = () => {
+    
+    const items = JSON.parse(localStorage.getItem('account'));
+    
+    return (
+        <>
+            {items &&
+                <ClinicaStatus />
+            }
+            {!items &&
+                <Routes>
+                    <Route path="/" element={<Navigate replace to="/home" />} />
+                </Routes>
+            }
+        </>
+    )
+}
+
+const Validaefacturaxion = () => {
+    
+    const items = JSON.parse(localStorage.getItem('account'));
+    
+    return (
+        <>
+            {items &&
+                <Billing />
+            }
+            {!items &&
+                <Routes>
+                    <Route path="/" element={<Navigate replace to="/home" />} />
+                </Routes>
+            }
+        </>
+    )
+}
+
+
 const LoginDesktop = () => {
 
     return (
@@ -149,7 +226,11 @@ const LoginDesktop = () => {
                 <Route path="/home" element={<LoginDesktopMain />} />
                 <Route path="/resetpassword" element={<RecoverDesktop />} />
                 <Route path="/register" element={<RegisterDesktop />} />
-                <Route path="/sincronization" element={<Validasincronizationdesktop />} />
+                <Route path="/sincronization/*" element={<Validasincronizationdesktop />} />
+                <Route path="/calls/*" element={<Validatevideocall />} />
+                <Route path="/medicalhistory/*" element={<Validatemedicalhistoy />} />
+                <Route path="/clinicalstatus/*" element={<Validatemedicalstatus />} />
+                <Route path="/facturaxion/*" element={<Validaefacturaxion />} />
             </Routes>
         </BrowserRouter>
     )
