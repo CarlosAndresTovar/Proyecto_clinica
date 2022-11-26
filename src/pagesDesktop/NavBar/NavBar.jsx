@@ -29,7 +29,7 @@ const BarraNavegacion = () => {
                         <a href="/home"><button>Pacientes</button></a>
                         <a href="/home"><button>Llamadas</button></a>
                         <a href="/home"><button>Calendario</button></a>
-                        <a href="#" onClick={ToggleActive}><button>Usuario</button></a>
+                        <a href="/#" onClick={ToggleActive}><button>Usuario</button></a>
                     </div>
                     <Perfil active={active}></Perfil>
         </header>
