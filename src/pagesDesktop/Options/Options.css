@@ -1,58 +1,73 @@
-.main-options{
-    background-image: url('/src/images/Options/inyeccion.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    min-height: 70vh;
-    padding: 3vmin;
-    align-items: center;
-    justify-content: center;
-    font-size: 3.7vmin;
-}
-
-.options{
-    display: flex;
-    width: 100%;
-    height: 75vmin;
-}
-
-.options-column:first-of-type{
-    border-right:2px solid rgba(0, 0, 0, 0.452);
-}
-
-.options-column{
-    width: 50%;
-    padding-left: 6vmin;
-    padding-right: 6vmin;
-}
-
-.option{
-    display: flex;
-    height: 31%;
-    padding-top: 1vmin;
-    padding-bottom: 1vmin;
-    align-items: center;
-}
-
-.option-icon{
-    background-color: #2c3c52ee;
-    height: 20vmin;
-    width: 20vmin;
-    padding: 1.5vmin;
-    border-radius: 5vmin;
-    margin-right: 5vmin;
-}
-
-.option-title{
-    background-color: #2c3c52ee;
-    display: flex;
-    height: 12vmin;
-    width: 34vmin;
-    padding: 2vmin 3vmin;
-    border-radius: 5vmin 0vmin 5vmin 0vmin;
-    align-items: center;
-    justify-content: center;
-    font-weight: 500;
+@media only screen and (min-width: 1200px) {
+    .main-options{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60vmin;
+        background-image: url("/src/pagesDesktop/Images/inyeccion.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 60vmin;
+    }
+    .main-options img {
+        margin-bottom: auto;
+        margin-top: 4vmin;
+        margin-left: 2vmin;
+    }
+    .firstsectionhomedesktop {
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8vmin;
+    }
+    .separationhomedesktop {
+        border-left: solid #000 0.1vmin;
+        margin-top: 8vmin;
+        height: 100%; 
+    }
+    .secondsectionhomedesktop{
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8vmin;
+    }
+    .section-options {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 1vmin;
+    }
+    .section-images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #2C3C52;
+        border-radius: 40px;
+        margin-right: 10vmin;
+        width: 22vmin;
+        height: 20vmin;
+    }
+    .section-images img {
+        margin: auto;
+    }
+    .section-name-options {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #2C3C52;
+        height: 10vmin;
+        width: 35vmin;
+        font-size: 3vmin;
+        border-radius: 5vmin 0vmin;
+    }
 }

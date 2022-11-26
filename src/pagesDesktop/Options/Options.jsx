@@ -1,58 +1,79 @@
 import React from "react";
 import './Options.css';
-import citaMedica from "../../images/Options/citaMedica.svg"
-import cuenta from "../../images/Options/cuenta.svg"
-import ganador from "../../images/Options/ganador.svg"
-import radiografia from "../../images/Options/radiografia.svg"
-import sello from "../../images/Options/sello.svg"
-import sincronizar from "../../images/Options/citaMedica.svg"
+import NavBar from "../NavBar/NavBar";
+import FooterDesktop from "../Footer/Footer";
+import CertificationsDesktop from "../Images/Certifications.svg";
+import MedicalAppointments from "../Images/medicalAppointments.svg";
+import xRays from "../Images/xRays.svg";
+import AutorizationsMipres from "../Images/autorizationsMipres.svg";
+import Sincronizations from "../Images/Sincronizations.svg";
+import CheckBilling from "../Images/checkBilling.svg";
+import Notifications from "../Images/Notifications.svg";
 
 const Options = () => {
     return (
-        <div className="main-options">
-            <div className="options">
-                <div className="options-column">
-                    <div className="option">
-                            <img src={ganador} alt="l" className="option-icon"/>
-                        <div className="option-title">
-                            <span>Certificados</span>
+        <>
+            <NavBar />
+            <div className="main-options">
+                <img src={Notifications} alt="Notifications"></img>
+                <div className="firstsectionhomedesktop">
+                    <div className="section-options">
+                        <div className="section-images">
+                            <img src={CertificationsDesktop} alt="CertificationsDesktop"></img>
+                        </div>
+                        <div className="section-name-options">
+                            <h3>Certificados</h3>
                         </div>
                     </div>
-                    <div className="option">
-                            <img src={citaMedica} alt="h"  className="option-icon"/>
-                        <div className="option-title">
-                            <span>Citas medicas</span>
+                    <div className="section-options">
+                        <div className="section-images">
+                            <img src={MedicalAppointments} alt="MedicalAppointments"></img>
+                        </div>
+                        <div className="section-name-options">
+                            <h3>Citas medicas</h3>
                         </div>
                     </div>
-                    <div className="option">
-                            <img src={radiografia} alt="" className="option-icon"/>
-                        <div className="option-title">
-                            <span>Imagenes diagnosticas</span>
+                    <div className="section-options">
+                        <div className="section-images">
+                            <img src={xRays} alt="xRays"></img>
+                        </div>
+                        <div className="section-name-options">
+                            <h3>Imagenes diagnosticas</h3>
                         </div>
                     </div>
                 </div>
-                <div className="options-column">
-                    <div className="option">
-                            <img src={sello} alt="" className="option-icon"/>
-                        <div className="option-title">
-                            <span>Autorizaciones mipres</span>
+                <div className="separationhomedesktop">
+                    <hr />
+                </div>
+                <div className="secondsectionhomedesktop">
+                    <div className="section-options">
+                        <div className="section-images">
+                            <img src={AutorizationsMipres} alt="AutorizationsMipres"></img>
+                        </div>
+                        <div className="section-name-options">
+                            <h3>Autorizaciónes mipres</h3>
                         </div>
                     </div>
-                    <div className="option">
-                            <img src={sincronizar} alt="" className="option-icon"/>
-                        <div className="option-title">
-                            <span>Sincronizacion de pacientes</span>
+                    <div className="section-options">
+                        <div className="section-images">
+                            <img src={Sincronizations} alt="Sincronizations"></img>
+                        </div>
+                        <div className="section-name-options">
+                            <h3>Sincronización de pacientes</h3>
                         </div>
                     </div>
-                    <div className="option">
-                            <img src={cuenta} alt="" className="option-icon"/>
-                        <div className="option-title">
-                            <span>Consultar facturacion</span>
+                    <div className="section-options">
+                        <div className="section-images">
+                            <img src={CheckBilling} alt="CheckBilling"></img>
+                        </div>
+                        <div className="section-name-options">
+                            <h3>Consultar facturación</h3>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <FooterDesktop/>
+        </>
     )
 }
 
