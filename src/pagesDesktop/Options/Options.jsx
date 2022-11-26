@@ -1,5 +1,11 @@
 import React from "react";
-import './Options.css'
+import './Options.css';
+import citaMedica from "../../images/Options/citaMedica.svg"
+import cuenta from "../../images/Options/cuenta.svg"
+import ganador from "../../images/Options/ganador.svg"
+import radiografia from "../../images/Options/radiografia.svg"
+import sello from "../../images/Options/sello.svg"
+import sincronizar from "../../images/Options/citaMedica.svg"
 
 const Options = () => {
     return (
@@ -7,25 +13,19 @@ const Options = () => {
             <div className="options">
                 <div className="options-column">
                     <div className="option">
-                        <div className="option-icon">
-                            <img src="C:\Users\nauto\Downloads\proyecto_clinica-main\src\pagesDesktop\Options\balance.png" alt="l" />
-                        </div>
+                            <img src={ganador} alt="l" className="option-icon"/>
                         <div className="option-title">
                             <span>Certificados</span>
                         </div>
                     </div>
                     <div className="option">
-                        <div className="option-icon">
-                            <img src="balance.png" alt="h" />
-                        </div>
+                            <img src={citaMedica} alt="h"  className="option-icon"/>
                         <div className="option-title">
                             <span>Citas medicas</span>
                         </div>
                     </div>
                     <div className="option">
-                        <div className="option-icon">
-                            <img src="balance.png" alt="" />
-                        </div>
+                            <img src={radiografia} alt="" className="option-icon"/>
                         <div className="option-title">
                             <span>Imagenes diagnosticas</span>
                         </div>
@@ -33,25 +33,19 @@ const Options = () => {
                 </div>
                 <div className="options-column">
                     <div className="option">
-                        <div className="option-icon">
-                            <img src="" alt="" />
-                        </div>
+                            <img src={sello} alt="" className="option-icon"/>
                         <div className="option-title">
                             <span>Autorizaciones mipres</span>
                         </div>
                     </div>
                     <div className="option">
-                        <div className="option-icon">
-                            <img src="" alt="" />
-                        </div>
+                            <img src={sincronizar} alt="" className="option-icon"/>
                         <div className="option-title">
                             <span>Sincronizacion de pacientes</span>
                         </div>
                     </div>
                     <div className="option">
-                        <div className="option-icon">
-                            <img src="" alt="" />
-                        </div>
+                            <img src={cuenta} alt="" className="option-icon"/>
                         <div className="option-title">
                             <span>Consultar facturacion</span>
                         </div>
