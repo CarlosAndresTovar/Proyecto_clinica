@@ -4,6 +4,13 @@ margin: 0;
 padding: 0%;
 box-sizing: border-box;
 }
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #000;
+    font-size: 100%;
+    padding: 2vh;
+}
 
 .sub-title{
     font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +20,7 @@ box-sizing: border-box;
 
 .container-separate{
     display: flex;
-    width: 40vh;
+    width: 30vh;
 }
 
 .superior-container{
@@ -21,8 +28,7 @@ box-sizing: border-box;
     flex-direction: row;    
     justify-content: space-between;
     align-items: center;
-    margin: 5%;
-    padding: 0%;
+    margin: 1%;
     width: 130vh;
     
     
@@ -84,7 +90,8 @@ box-sizing: border-box;
 
 .inferior-section{
     display: flex;
-    flex-direction: row;    
+    flex-direction: row; 
+    justify-content: center;   
 
 }
 .tension-box{
@@ -94,7 +101,7 @@ box-sizing: border-box;
     width: 33%;
     padding: 4%;
     border-right: solid #000 0.1vh;
-    border-bottom: solid #000 0.1vh;
+    
 
 }
 .breathing-box{
@@ -104,7 +111,7 @@ box-sizing: border-box;
     width: 33%;
     padding: 4%;
     border-right: solid #000 0.1vh;
-    border-bottom: solid #000 0.1vh;
+    
 }
 
 .glucose-box{
@@ -113,7 +120,7 @@ box-sizing: border-box;
     align-items: center;
     width: 33%;   
     padding: 4%;    
-    border-bottom: solid #000 0.1vh;
+    
 
 }
 

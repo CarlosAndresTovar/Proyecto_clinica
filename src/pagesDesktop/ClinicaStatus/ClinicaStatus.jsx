@@ -14,6 +14,7 @@ const ClinicaStatus = () => {
     return(
     <>
         <NavBar />
+        <h1 className="title">Estado Clínico</h1>
         <div className="superior-container"> 
             <div className="general-container-one">               
                 <div className="box-status">
