@@ -30,7 +30,7 @@ const Options = () => {
                             <a href="/home"><img src={MedicalAppointments} alt="MedicalAppointments"></img></a>
                         </div>
                         <div className="section-name-options">
-                            <h3>Citas medicas</h3>
+                            <h3>Citas médicas</h3>
                         </div>
                     </div>
                     <div className="section-options">
@@ -38,7 +38,7 @@ const Options = () => {
                             <a href="/home"><img src={xRays} alt="xRays"></img></a>
                         </div>
                         <div className="section-name-options">
-                            <h3>Imagenes diagnosticas</h3>
+                            <h3>Imágenes diagnosticas</h3>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ const Options = () => {
                             <a href="/home"><img src={AutorizationsMipres} alt="AutorizationsMipres"></img></a>
                         </div>
                         <div className="section-name-options">
-                            <h3>Autorizaciónes mipres</h3>
+                            <h3>Autorizaciones mipres</h3>
                         </div>
                     </div>
                     <div className="section-options">

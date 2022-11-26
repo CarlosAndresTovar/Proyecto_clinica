@@ -11,7 +11,7 @@ const Sincronization = () => {
                 <form>
                     <input type="text" placeholder="Código del paciente"></input>
                 </form>
-                <button>Validar</button>
+                <a href="/home"><button>Validar</button></a>
             </div>
             <FooterDesktop />
         </>

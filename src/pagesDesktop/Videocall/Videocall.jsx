@@ -18,13 +18,13 @@ const VideoCall = () => {
                             <span className="principal-title">Nombre de usuario</span>
                     </div>
                     <div className="texto-del-form">
-                        <p className="parrafo"> Es necesario tener acceso a un microfono y una cámara para unirse a la video llamada. </p>
+                        <p className="parrafo"> Es necesario tener acceso a un micrófono y una cámara para unirse a la video-llamada. </p>
                     </div>
                     <div className="container-button">
-                        <button type="input">Permitir</button>
+                        <a href="/home"><button type="input">Permitir</button></a>
                     </div>
                     <div className="container-button">
-                        <button type="input">Unirse</button>
+                        <a href="/home"><button type="input">Unirse</button></a>
                     </div>
                     
                     

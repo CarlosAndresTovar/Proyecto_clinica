@@ -13,7 +13,7 @@ const Billing = () => {
         <>
             <Navbar />
             <div className="billing">
-                <h2 className="billing-title">Facturación Clinica</h2>
+                <h2 className="billing-title">Facturación clínica</h2>
                 <div className="billing-section">
                     <div className="bill">
                         <div className="title row border-bottom">
@@ -28,8 +28,8 @@ const Billing = () => {
                         <div className="details row border-bottom">
                             <div className="details-services services">
                                 <div>
-                                    <p>Radiografias del tracto grastrointestinal inferior</p>
-                                    <p>Hospitalizacion</p>
+                                    <p>Radiografías del tracto grastrointestinal inferior</p>
+                                    <p>Hospitalización</p>
                                 </div>
                                 <p className="subtotal">
                                     Subtotal
@@ -76,7 +76,7 @@ const Billing = () => {
                             <input type="radio" name="select"/>
                             <img src={GrupoAval} alt="" />
                         </div>
-                        <button>Ir a pagar</button>
+                        <a href="/home"><button>Ir a pagar</button></a>
                     </div>
                     <div className="payment-column">
                         <div className="payment-method">
@@ -89,7 +89,7 @@ const Billing = () => {
                             <img src={MasterCard} alt="" />
                             <img src={AmericanExpress} alt="" />
                         </div>
-                        <button>Actualizar</button>
+                        <a href="/home"><button>Actualizar</button></a>
                     </div>
                     </div>
                 </div>

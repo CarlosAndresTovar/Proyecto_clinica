@@ -17,7 +17,7 @@ const RecoverDesktop = () => {
             </header>
             <div className="recoverypassworddesktop">
                 <h1>Recuperar la contraseña</h1>
-                <p>Al hacer clic en continuar recibiras un link al correo registrado para la recuperación de la contraseña</p>
+                <p>Al hacer clic en continuar recibirás un link al correo registrado para la recuperación de la contraseña</p>
                 <div className="line-separation"></div>
                 <form>
                     <input type="email" placeholder="Ingresa el correo electronico"></input>

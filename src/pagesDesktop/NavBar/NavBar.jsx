@@ -51,7 +51,7 @@ const BarraNavegacion = () => {
                     </div>
                     <div className="sections-perfil">
                         <a href="/home"><img src={Ayudadesktop} alt="Ayudadesktop"></img></a>
-                        <a href="/home"><h3>ayuda</h3></a>
+                        <a href="/home"><h3>Ayuda</h3></a>
                     </div>
                     <div className="salir-desktop">
                         <button><a onClick={clearLocalStorageDesktop} href="/home">Salir</a></button>
