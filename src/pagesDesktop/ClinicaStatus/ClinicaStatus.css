@@ -1,10 +1,179 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
+*{
+margin: 0;  
+padding: 0%;
+box-sizing: border-box;
+}
+
+.sub-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 130%;
+}
+
+.container-separate{
+    display: flex;
+    width: 40vh;
+}
+
+.superior-container{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    padding: 0%;
+    width: 130vh;
     
-    p .prueba{
-        color: black;
-        background-color: red;
-    }
+    
+}
+
+.general-container-one{
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    font-size: 1.5vh;
+    border-radius: 15px;
+}
+
+.general-container-two{
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    font-size: 2vh;
+    border-radius: 15px;
+}
+
+.superior-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.cardiact-rite{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    padding: 4%;
+    border-right: solid #000 0.1vh;
+    border-bottom: solid #000 0.1vh;
 
 }
+.temperture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    padding: 4%;
+    border-right: solid #000 0.1vh;
+    border-bottom: solid #000 0.1vh;
+
+}
+.pressure{  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    padding: 4%;
+    border-bottom: solid #000 0.1vh;
+}
+
+.inferior-section{
+    display: flex;
+    flex-direction: row;    
+
+}
+.tension-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    padding: 4%;
+    border-right: solid #000 0.1vh;
+    border-bottom: solid #000 0.1vh;
+
+}
+.breathing-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    padding: 4%;
+    border-right: solid #000 0.1vh;
+    border-bottom: solid #000 0.1vh;
+}
+
+.glucose-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;   
+    padding: 4%;    
+    border-bottom: solid #000 0.1vh;
+
+}
+
+.medicines {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.medicineone {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 0.1vh;
+}
+.medicine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+    margin: 1vh;
+}
+.indications {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+}
+
+.medicinetwo {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 0.1vh;
+}
+.medicinethree {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 0.1vh;
+}
+.medicinefour {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 0.1vh;
+}
+.medicinefive {
+    display: flex;
+    flex-direction: row;
+}
+.text-posologia{
+    font-size: 2vh;
+    text-align: left;
+}
+
+}
+
+        
+
     
-  
+     
