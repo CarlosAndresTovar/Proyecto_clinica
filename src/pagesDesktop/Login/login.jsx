@@ -10,6 +10,7 @@ import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import RecoverDesktop from "../Recover/Recover";
 import RegisterDesktop from "../Register/Register";
 import Options from "../Options/Options";
+import Sincronization from "../Sincronization/Sincronization";
 
 const LoginDesktopMain = () => {
 
@@ -121,6 +122,24 @@ const LoginDesktopMain = () => {
     )
 }
 
+const Validasincronizationdesktop = () => {
+    
+    const items = JSON.parse(localStorage.getItem('account'));
+    
+    return (
+        <>
+            {items &&
+                <Sincronization />
+            }
+            {!items &&
+                <Routes>
+                    <Route path="/" element={<Navigate replace to="/home" />} />
+                </Routes>
+            }
+        </>
+    )
+}
+
 const LoginDesktop = () => {
 
     return (
@@ -130,6 +149,7 @@ const LoginDesktop = () => {
                 <Route path="/home" element={<LoginDesktopMain />} />
                 <Route path="/resetpassword" element={<RecoverDesktop />} />
                 <Route path="/register" element={<RegisterDesktop />} />
+                <Route path="/sincronization" element={<Validasincronizationdesktop />} />
             </Routes>
         </BrowserRouter>
     )

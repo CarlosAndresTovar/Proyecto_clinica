@@ -56,7 +56,7 @@ const Options = () => {
                     </div>
                     <div className="section-options">
                         <div className="section-images">
-                            <img src={Sincronizations} alt="Sincronizations"></img>
+                            <a href="/sincronization"><img src={Sincronizations} alt="Sincronizations"></img></a>
                         </div>
                         <div className="section-name-options">
                             <h3>Sincronización de pacientes</h3>

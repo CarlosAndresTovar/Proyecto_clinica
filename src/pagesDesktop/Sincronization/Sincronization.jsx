@@ -1,14 +1,20 @@
 import React from "react";
-import Notifications from "../components/Notifications";
-import Perfil from "../components/Perfil"
-import './Sincronization.css'
+import './Sincronization.css';
+import NavBar from "../NavBar/NavBar";
+import FooterDesktop from "../Footer/Footer";
 
 const Sincronization = () => {
     return (
-        <div className="Sincronization">
-            <input type={'text'} name='code' className="input" placeholder="codigo paciente"/>
-            <input type="submit" value={'Validar'} className="submit" />
-        </div>
+        <>
+            <NavBar />
+            <div className="Sincronization-desktop">
+                <form>
+                    <input type="text" placeholder="Código del paciente"></input>
+                </form>
+                <button>Validar</button>
+            </div>
+            <FooterDesktop />
+        </>
     )
 }
 
